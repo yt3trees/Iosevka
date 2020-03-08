@@ -2377,6 +2377,11 @@ section .section-introduction > .content:before {
   left: -2rem;
   border-right: 1px solid #212525;
 }
+section.secondary .section-inner > h3 {
+  font-weight: 300;
+  font-size: 2.4rem;
+  margin: 0 0 2rem;
+}
 .picker-frame .toolbar.separate-toolbar {
   line-height: 1.5rem;
   height: 1.5rem;
@@ -2950,5 +2955,12 @@ div.footer {
   font-style: normal;
   text-fill-color: transparent;
   -webkit-text-fill-color: transparent;
+}
+.supported-languages {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  columns: 6;
+  font-size: 0.8rem;
 }
 
