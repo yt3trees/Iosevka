@@ -2529,22 +2529,22 @@ section.secondary .section-inner > h3 {
   line-height: 1em;
   margin: -10rem 0 0 0;
 }
-@media (max-width: 1200px) {
+@media (max-width: 1040px) {
   .banner-title {
     font-size: 8rem;
   }
 }
-@media (max-width: 880px) {
+@media (max-width: 800px) {
   .banner-title {
     font-size: 6rem;
   }
 }
-@media (max-width: 680px) {
+@media (max-width: 560px) {
   .banner-title {
     font-size: 4rem;
   }
 }
-@media (max-width: 480px) {
+@media (max-width: 320px) {
   .banner-title {
     font-size: 2rem;
   }
