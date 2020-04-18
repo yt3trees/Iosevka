@@ -2487,6 +2487,9 @@ section.secondary .section-inner > h3 {
   text-align: justify;
   line-height: 1.5;
 }
+.sample-code .token.dim {
+  color: #6e7372;
+}
 .sample-code .token.keyword,
 .sample-code .token.storage {
   color: #00ace9;
@@ -2507,8 +2510,31 @@ section.secondary .section-inner > h3 {
 .sample-code .token.constant-numeric {
   color: #ec7d71;
 }
+.sample-code .token.string {
+  color: #4db073;
+}
 .sample-code span.highlight {
   color: #75f4ff;
+}
+.feature-usage-shower {
+  border: 1px solid #333737;
+  margin: 1.5rem 0 0.5rem 0;
+  padding: 0.5rem;
+}
+.feature-usage-shower h3 {
+  font-size: 0.8rem;
+  font-weight: 400;
+  font-stretch: expanded;
+  margin: 0;
+  text-transform: uppercase;
+  background: #101414;
+  margin-top: -1rem;
+  padding: 0 0.5em;
+  width: 14em;
+}
+.feature-usage-shower > .sample-code {
+  margin: 0;
+  font-size: 0.8rem;
 }
 .banner {
   height: 100vh;
@@ -2789,7 +2815,7 @@ section.secondary .section-inner > h3 {
   font-size: 2rem;
 }
 .ligation-sampler-body .sample-text .rank-0 {
-  color: rgba(199,204,203,0.25);
+  color: #3d4241;
 }
 .ligation-sampler-body .sample-text .rank-2 {
   color: #75f4ff;
@@ -2879,13 +2905,6 @@ section.secondary .section-inner > h3 {
 .character-variant-sampler-body > .switches > .cv > .options > .group > .option > .italic-sample {
   font-style: italic;
 }
-.character-variant-sampler-body > .switches > .tag-shower > .body {
-  font-size: 0.8rem;
-  white-space: pre-wrap;
-}
-.character-variant-sampler-body > .switches > .tag-shower > .body .na {
-  font-style: italic;
-}
 .character-variant-sampler-body > .picker-frame {
   flex: 1 1 1rem;
 }
@@ -2902,7 +2921,7 @@ section.secondary .section-inner > h3 {
 .character-variant-sampler-body > .picker-frame .sample-code-list {
   overflow-x: auto;
 }
-.character-variant-sampler-body > .picker-frame .sample-code {
+.character-variant-sampler-body > .picker-frame .sample-code-list > .sample-code {
   width: 0;
   font-size: 1.1rem;
   line-height: 1.5;
