@@ -3401,13 +3401,14 @@ div.footer {
   height: 100%;
   overflow: hidden;
 }
-.character-specimen .specimen-block .specimen-block-body .specimen-character:hover {
+.character-specimen .specimen-block .specimen-block-body .specimen-character:hover,
+.character-specimen .specimen-block .specimen-block-body .specimen-character.variant-menu-visible {
   background: #212525;
 }
-.character-specimen .specimen-block .specimen-block-body .specimen-character:hover .character-sample-variants {
+.character-specimen .specimen-block .specimen-block-body .specimen-character.variant-menu-visible .character-sample-variants {
   display: block;
 }
-.character-specimen .specimen-block .specimen-block-body .specimen-character:hover .has-variant-marker {
+.character-specimen .specimen-block .specimen-block-body .specimen-character.variant-menu-visible .has-variant-marker {
   opacity: 1;
 }
 .character-specimen .specimen-block .specimen-block-body .specimen-character .has-variant-marker {
