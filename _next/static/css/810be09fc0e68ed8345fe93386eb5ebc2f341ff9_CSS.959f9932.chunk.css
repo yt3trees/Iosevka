@@ -1,0 +1,3448 @@
+@import url(https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap);
+
+@font-face {
+	font-family: 'Iosevka Web';
+	font-display: swap;
+	font-weight: 100;
+	font-stretch: normal;
+	font-style: normal;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-thin-979149709b2d2c8b6b058148cf7ea1de.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-thin-ea60580cee20cd29087b623fed88eb1b.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-thin-657d8a737d1ba87c73fb0cdf256f82d3.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Web';
+	font-display: swap;
+	font-weight: 100;
+	font-stretch: expanded;
+	font-style: normal;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extendedthin-aabaec8adec029f551a06381026c769d.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extendedthin-8d6b543b23af022a5e1f420fb44d794c.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extendedthin-6a638bc9c2e6bf5dd2825c089686a534.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Web';
+	font-display: swap;
+	font-weight: 100;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-thinoblique-3b99821dfdc8a1b30ef9eed4128c10e1.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-thinoblique-f0b77daf1e679338726317a0f4ea6c76.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-thinoblique-8e7dcd083b19c17d1634204e7b0a2c3a.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Web Oblique';
+	font-display: swap;
+	font-weight: 100;
+	font-stretch: normal;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-thinoblique-3b99821dfdc8a1b30ef9eed4128c10e1.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-thinoblique-f0b77daf1e679338726317a0f4ea6c76.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-thinoblique-8e7dcd083b19c17d1634204e7b0a2c3a.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Web';
+	font-display: swap;
+	font-weight: 100;
+	font-stretch: expanded;
+	font-style: oblique;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extendedthinoblique-894a035f0be33e8b4b3d3f896cc295f9.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extendedthinoblique-7158a7777d4e036eca190a7b1c560ece.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extendedthinoblique-847d8531b978c86ee595b74925480c0f.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Web Oblique';
+	font-display: swap;
+	font-weight: 100;
+	font-stretch: expanded;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extendedthinoblique-894a035f0be33e8b4b3d3f896cc295f9.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extendedthinoblique-7158a7777d4e036eca190a7b1c560ece.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extendedthinoblique-847d8531b978c86ee595b74925480c0f.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Web';
+	font-display: swap;
+	font-weight: 100;
+	font-stretch: normal;
+	font-style: italic;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-thinitalic-59d46e21d9d1a64a2b8a7218895407e3.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-thinitalic-c357a025c34a043e31914efcceaba2b7.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-thinitalic-107a78d95ae7fab289e349878cabd2be.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Web';
+	font-display: swap;
+	font-weight: 100;
+	font-stretch: expanded;
+	font-style: italic;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extendedthinitalic-541667c2370476e8582ad944fdd0d9e0.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extendedthinitalic-770754566dd0e70c987c4fa2ebd6480e.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extendedthinitalic-0af1975ee5893223a1033a757551a5ee.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Web';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: normal;
+	font-style: normal;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extralight-9836b62b582ef22a4ba6442e0711d797.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extralight-9bba4c2f26e61a6129d8b7fbbba23d99.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extralight-c1af9c5eecab2179df9631d692626988.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Web';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: expanded;
+	font-style: normal;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extendedextralight-5e72b4181341af18bcec25bccfc75b16.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extendedextralight-7389bff85c5f36ae6725d474b7f72653.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extendedextralight-2ffa90111b147c17bf902cabfb0aae69.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Web';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extralightoblique-7530487ad5934b609694319e7860a7f2.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extralightoblique-00a99a96492e6238d5013f53fdc7a6dd.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extralightoblique-cdff4072f53652356b576ae706a0839e.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Web Oblique';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: normal;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extralightoblique-7530487ad5934b609694319e7860a7f2.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extralightoblique-00a99a96492e6238d5013f53fdc7a6dd.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extralightoblique-cdff4072f53652356b576ae706a0839e.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Web';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: expanded;
+	font-style: oblique;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extendedextralightoblique-f1bf9c078c619d508dc76b21827b4d15.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extendedextralightoblique-f091b79db95f72a17be0cec7411497b8.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extendedextralightoblique-97c3968ee7ccd0a0cd964780d002f373.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Web Oblique';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: expanded;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extendedextralightoblique-f1bf9c078c619d508dc76b21827b4d15.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extendedextralightoblique-f091b79db95f72a17be0cec7411497b8.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extendedextralightoblique-97c3968ee7ccd0a0cd964780d002f373.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Web';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: normal;
+	font-style: italic;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extralightitalic-35962402dbf9f23188b075adfff5ea43.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extralightitalic-5015ddaa69cd345c51e5ceaf94834e54.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extralightitalic-2ecefb4c86d7db20aa86786fbb1dc67b.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Web';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: expanded;
+	font-style: italic;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extendedextralightitalic-a86269586c4cf6e4c811e6b4a6a7f67a.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extendedextralightitalic-92c41905c0f5a97abbf80759451d182a.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extendedextralightitalic-6fd91d2fbc0b082b9085afb4707c8920.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Web';
+	font-display: swap;
+	font-weight: 300;
+	font-stretch: normal;
+	font-style: normal;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-light-a9406714e258b838d5e856e413ee0ee0.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-light-e350c639f777b1da1a2c6dd3c98ce6c0.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-light-92feacfb9494d23b18fc77b89af0c2f6.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Web';
+	font-display: swap;
+	font-weight: 300;
+	font-stretch: expanded;
+	font-style: normal;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extendedlight-1bc11b0e25b8b7fea09d95075743b43b.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extendedlight-7195f89dab4536d1797997deef31f56d.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extendedlight-f9b2f96375930c85653b94277365e73b.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Web';
+	font-display: swap;
+	font-weight: 300;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-lightoblique-1b25ec2edf4f8a743a1f4e3ad3f7b4bf.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-lightoblique-197b45fde721ccbaabcd5fabd023de8a.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-lightoblique-c664eedc2ed1e1fd534a6e5577813751.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Web Oblique';
+	font-display: swap;
+	font-weight: 300;
+	font-stretch: normal;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-lightoblique-1b25ec2edf4f8a743a1f4e3ad3f7b4bf.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-lightoblique-197b45fde721ccbaabcd5fabd023de8a.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-lightoblique-c664eedc2ed1e1fd534a6e5577813751.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Web';
+	font-display: swap;
+	font-weight: 300;
+	font-stretch: expanded;
+	font-style: oblique;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extendedlightoblique-ac5ff20a0a1fa0e074276368b2613fdb.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extendedlightoblique-3fee1d3cdfde24d9917eb17dec616d28.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extendedlightoblique-5e05c04e98b9c2e31f67944dd0ff3b3d.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Web Oblique';
+	font-display: swap;
+	font-weight: 300;
+	font-stretch: expanded;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extendedlightoblique-ac5ff20a0a1fa0e074276368b2613fdb.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extendedlightoblique-3fee1d3cdfde24d9917eb17dec616d28.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extendedlightoblique-5e05c04e98b9c2e31f67944dd0ff3b3d.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Web';
+	font-display: swap;
+	font-weight: 300;
+	font-stretch: normal;
+	font-style: italic;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-lightitalic-fd677f300725a14f249430a262e12bb4.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-lightitalic-74d34c203c2b249d1d66467916ffead7.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-lightitalic-9e69c229b3bbe0acd4aeeb9ee50b2665.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Web';
+	font-display: swap;
+	font-weight: 300;
+	font-stretch: expanded;
+	font-style: italic;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extendedlightitalic-f0c97de55ddda345fd68237c3bf72251.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extendedlightitalic-b3ed965708de6473197bccf171c74834.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extendedlightitalic-1caac66f1bb6fccf4a1b3e74d906fdbf.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Web';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: normal;
+	font-style: normal;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-regular-50c99aa030d492132eb17bf427d1ae5c.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-regular-f59c65005c064e9faf703d742dea8114.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-regular-a39e13c47c5aa3789ebacfac0ba422b6.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Web';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: expanded;
+	font-style: normal;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extended-cd8092573339dc0f6f8c055112f163a4.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extended-8c400fef008d444133fea8ff73853501.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extended-ebe18d702b46d2940a2039896c92c395.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Web';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-oblique-80e0c1102bb4d3d29773f2e0923b332c.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-oblique-7ec121729cff897e5db7fc60b9ad8e44.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-oblique-4e67c4837caaf7a134f2e7e3a9a0fbd8.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Web Oblique';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: normal;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-oblique-80e0c1102bb4d3d29773f2e0923b332c.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-oblique-7ec121729cff897e5db7fc60b9ad8e44.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-oblique-4e67c4837caaf7a134f2e7e3a9a0fbd8.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Web';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: expanded;
+	font-style: oblique;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extendedoblique-8faa1a00f2684d84af92555f28ee1f29.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extendedoblique-174462085d447f85542df428ad05b8a2.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extendedoblique-0c6780989b31ab289b770784f5e33605.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Web Oblique';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: expanded;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extendedoblique-8faa1a00f2684d84af92555f28ee1f29.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extendedoblique-174462085d447f85542df428ad05b8a2.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extendedoblique-0c6780989b31ab289b770784f5e33605.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Web';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: normal;
+	font-style: italic;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-italic-3f9b29388876f1afb070ac3c9b43811b.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-italic-8ef1ade04a45308c472496eeb4a91467.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-italic-cc2b48449799577ffdafe94712db85e0.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Web';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: expanded;
+	font-style: italic;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extendeditalic-122bae0aa48c4b4906642c3080507a7d.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extendeditalic-75a29a0d08e5ff19feeb18fe756b1eb7.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extendeditalic-f69e754596014ed740dd1da9427263a3.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Web';
+	font-display: swap;
+	font-weight: 500;
+	font-stretch: normal;
+	font-style: normal;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-medium-44950cde8ee21dc3b2a09ecf4b319d7c.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-medium-69dec2ac75515d61df206f97313bfd02.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-medium-7ff7e3cc13390995bfbb7f754714008d.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Web';
+	font-display: swap;
+	font-weight: 500;
+	font-stretch: expanded;
+	font-style: normal;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extendedmedium-849e0021a55ef1d1cd34620c6859542b.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extendedmedium-7ba9901e3d653137c96f7d29c25cc144.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extendedmedium-b06c0f93aa73e6ae7431521a7e73b215.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Web';
+	font-display: swap;
+	font-weight: 500;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-mediumoblique-39bc144ecd6c41e00e2fce0a34dae09a.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-mediumoblique-9da14e7d985b9cd89617460c936d2b9a.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-mediumoblique-68ef57abb9248a6f1b2e6edc2027bf24.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Web Oblique';
+	font-display: swap;
+	font-weight: 500;
+	font-stretch: normal;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-mediumoblique-39bc144ecd6c41e00e2fce0a34dae09a.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-mediumoblique-9da14e7d985b9cd89617460c936d2b9a.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-mediumoblique-68ef57abb9248a6f1b2e6edc2027bf24.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Web';
+	font-display: swap;
+	font-weight: 500;
+	font-stretch: expanded;
+	font-style: oblique;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extendedmediumoblique-a6726ef01c244698978db52d123538ab.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extendedmediumoblique-c9d6036bfea0a4fa3d27bca4473d6a5f.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extendedmediumoblique-25314a68bac790b219e680c18d5c9cdd.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Web Oblique';
+	font-display: swap;
+	font-weight: 500;
+	font-stretch: expanded;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extendedmediumoblique-a6726ef01c244698978db52d123538ab.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extendedmediumoblique-c9d6036bfea0a4fa3d27bca4473d6a5f.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extendedmediumoblique-25314a68bac790b219e680c18d5c9cdd.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Web';
+	font-display: swap;
+	font-weight: 500;
+	font-stretch: normal;
+	font-style: italic;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-mediumitalic-11a14110a5746893cfed930f45b7f217.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-mediumitalic-e10b1f3b350deddea2ecb18efbf9c685.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-mediumitalic-c49e259aa7017e6cf0ae4541ffd71d9e.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Web';
+	font-display: swap;
+	font-weight: 500;
+	font-stretch: expanded;
+	font-style: italic;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extendedmediumitalic-6bee4850e0669fecc4edeed628674341.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extendedmediumitalic-891a89e8072b777242b541e1c8ce676a.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extendedmediumitalic-abc93b5ea338ee0d0d1f7c190881de95.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Web';
+	font-display: swap;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-semibold-141bea918282a9e2faef6717a677932c.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-semibold-46c9be85c8cf77b4d02b5ea9f4d98c75.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-semibold-1a21f5d6c8143464bed4d401803afed2.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Web';
+	font-display: swap;
+	font-weight: 600;
+	font-stretch: expanded;
+	font-style: normal;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extendedsemibold-2cd1b2dbe685589038bcd7407d97a328.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extendedsemibold-a48d6b0bc5ae7ce02495435f6d969c1a.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extendedsemibold-6771df1c0d97410227e404a7017a455e.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Web';
+	font-display: swap;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-semiboldoblique-16acb10a0e86564ef434c109dbaa104a.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-semiboldoblique-da396680a199be67c378022684c5a5eb.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-semiboldoblique-7c4c35ac89e50150105e9cae89c356fb.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Web Oblique';
+	font-display: swap;
+	font-weight: 600;
+	font-stretch: normal;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-semiboldoblique-16acb10a0e86564ef434c109dbaa104a.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-semiboldoblique-da396680a199be67c378022684c5a5eb.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-semiboldoblique-7c4c35ac89e50150105e9cae89c356fb.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Web';
+	font-display: swap;
+	font-weight: 600;
+	font-stretch: expanded;
+	font-style: oblique;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extendedsemiboldoblique-c924429e89974dfd2c617dede441738f.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extendedsemiboldoblique-170ef106542b87c58f813dbcbc102594.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extendedsemiboldoblique-269969132472c4599f1bdca2518b7995.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Web Oblique';
+	font-display: swap;
+	font-weight: 600;
+	font-stretch: expanded;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extendedsemiboldoblique-c924429e89974dfd2c617dede441738f.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extendedsemiboldoblique-170ef106542b87c58f813dbcbc102594.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extendedsemiboldoblique-269969132472c4599f1bdca2518b7995.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Web';
+	font-display: swap;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: italic;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-semibolditalic-1833de2e55d21a35674d7d214d58f8b3.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-semibolditalic-47051e3d7dff98b6ea17c5502f631ed8.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-semibolditalic-01bd092267171654a1594be4ffcaa749.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Web';
+	font-display: swap;
+	font-weight: 600;
+	font-stretch: expanded;
+	font-style: italic;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extendedsemibolditalic-4ab8fb98ad93e442af00c6c05da777f3.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extendedsemibolditalic-058aa32f361c1a8ffef7187cefe20ab0.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extendedsemibolditalic-33126553668734cb07c82ad90d97613d.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Web';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: normal;
+	font-style: normal;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-bold-bb732eb1c2790c321f08ee056e10cd2d.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-bold-ed29275c09779f4702166d9961bfef79.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-bold-c96648bb0db7be24d6472915bc0701cf.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Web';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: expanded;
+	font-style: normal;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extendedbold-7e6403966ca37a64770ea0daa6b5a60a.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extendedbold-cd62871131d16c37593be43e53ce07c6.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extendedbold-37215045a3592e8d408321be02c33916.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Web';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-boldoblique-aefd2d88becdde33e47f792c86551733.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-boldoblique-7abd415e57ccf4c8a8637e2fe5debcb0.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-boldoblique-df11658a49bf69b87cbbcbbcd31120b9.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Web Oblique';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: normal;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-boldoblique-aefd2d88becdde33e47f792c86551733.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-boldoblique-7abd415e57ccf4c8a8637e2fe5debcb0.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-boldoblique-df11658a49bf69b87cbbcbbcd31120b9.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Web';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: expanded;
+	font-style: oblique;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extendedboldoblique-73847f3e6ce9fd9e2595313fb163c252.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extendedboldoblique-a08c24ef802bf7c2994d55330bb28e65.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extendedboldoblique-57864dd86aa6bd0326507cee06670af4.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Web Oblique';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: expanded;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extendedboldoblique-73847f3e6ce9fd9e2595313fb163c252.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extendedboldoblique-a08c24ef802bf7c2994d55330bb28e65.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extendedboldoblique-57864dd86aa6bd0326507cee06670af4.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Web';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: normal;
+	font-style: italic;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-bolditalic-168d20b4b6edf2cacfdaaf58588f2285.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-bolditalic-aee467ff8718f9456b63a16bc4924896.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-bolditalic-60ab743f0fac13ac410a9ab72392ebd3.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Web';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: expanded;
+	font-style: italic;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extendedbolditalic-7debff8dfea0c3308f94e81a1d4aa53c.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extendedbolditalic-5e60fdf62a9bfa1b6bcd68ccaf9d955a.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extendedbolditalic-6d67b2351e3fb7f0093057e7cfa377a8.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Web';
+	font-display: swap;
+	font-weight: 800;
+	font-stretch: normal;
+	font-style: normal;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extrabold-d80ce96669f03203f9ec8c562111e73b.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extrabold-d3c7cf9d0c8c4121c6f3da433783ab3e.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extrabold-e92b8bd149095bc5cbcc2ab8b7078527.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Web';
+	font-display: swap;
+	font-weight: 800;
+	font-stretch: expanded;
+	font-style: normal;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extendedextrabold-2c6db9dc95055f67b3a95de58cc1e4df.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extendedextrabold-92540dfa361f53f23a542be75e48019b.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extendedextrabold-38ae9b4707a85dfb50e6958655430973.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Web';
+	font-display: swap;
+	font-weight: 800;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extraboldoblique-dbb593960f20b61dcd89ae6bf2c56e6d.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extraboldoblique-194d60432ea7383fbf435890ba7c5215.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extraboldoblique-8426c3c031e9400ffb0efb72497367e7.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Web Oblique';
+	font-display: swap;
+	font-weight: 800;
+	font-stretch: normal;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extraboldoblique-dbb593960f20b61dcd89ae6bf2c56e6d.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extraboldoblique-194d60432ea7383fbf435890ba7c5215.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extraboldoblique-8426c3c031e9400ffb0efb72497367e7.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Web';
+	font-display: swap;
+	font-weight: 800;
+	font-stretch: expanded;
+	font-style: oblique;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extendedextraboldoblique-51faeac17805954ce60ad2dfe08fa7ed.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extendedextraboldoblique-62e9a24273b526838bbc73883bd49c69.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extendedextraboldoblique-3e17d9f3ed6f819ee7e436e4af5adbe9.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Web Oblique';
+	font-display: swap;
+	font-weight: 800;
+	font-stretch: expanded;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extendedextraboldoblique-51faeac17805954ce60ad2dfe08fa7ed.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extendedextraboldoblique-62e9a24273b526838bbc73883bd49c69.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extendedextraboldoblique-3e17d9f3ed6f819ee7e436e4af5adbe9.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Web';
+	font-display: swap;
+	font-weight: 800;
+	font-stretch: normal;
+	font-style: italic;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extrabolditalic-76956493daf6ecf1f1499fac6a087b4d.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extrabolditalic-089d8dfddb384e84ae9657365d25ca9c.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extrabolditalic-843c96511dc2cb695f7e26b375318d9c.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Web';
+	font-display: swap;
+	font-weight: 800;
+	font-stretch: expanded;
+	font-style: italic;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extendedextrabolditalic-62590e8cbc90e2169d3e50d643d1fbf6.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extendedextrabolditalic-15492f77061ac9f537c76434e04279b3.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extendedextrabolditalic-662d28c1e40440c3298db8a766277d92.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Web';
+	font-display: swap;
+	font-weight: 900;
+	font-stretch: normal;
+	font-style: normal;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-heavy-963e2c332d00b93c070f0a2ba23e0bc6.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-heavy-344bbfcb55c6918fe7ec40184fa9778b.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-heavy-d82b5bc5c53237b2531a8243d863d149.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Web';
+	font-display: swap;
+	font-weight: 900;
+	font-stretch: expanded;
+	font-style: normal;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extendedheavy-da9cd47375c2958b1119c68c88909e7c.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extendedheavy-0de1a13aaffe8cbad4b84a85ee71b606.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extendedheavy-36339378c03169389825eddb5871dc26.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Web';
+	font-display: swap;
+	font-weight: 900;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-heavyoblique-d039c797fa4772421f2f04e92037fc7e.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-heavyoblique-911c67112c9de1495093fc974a8706be.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-heavyoblique-be54e987cbd2c05054e5bb402bf32fbc.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Web Oblique';
+	font-display: swap;
+	font-weight: 900;
+	font-stretch: normal;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-heavyoblique-d039c797fa4772421f2f04e92037fc7e.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-heavyoblique-911c67112c9de1495093fc974a8706be.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-heavyoblique-be54e987cbd2c05054e5bb402bf32fbc.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Web';
+	font-display: swap;
+	font-weight: 900;
+	font-stretch: expanded;
+	font-style: oblique;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extendedheavyoblique-4f3ab731e77b7a9fca9ea976ad4ddf03.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extendedheavyoblique-54e2c6d251bc0dca085934884413c624.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extendedheavyoblique-b2e59a3213f0e0b88cab47bc535174b3.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Web Oblique';
+	font-display: swap;
+	font-weight: 900;
+	font-stretch: expanded;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extendedheavyoblique-4f3ab731e77b7a9fca9ea976ad4ddf03.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extendedheavyoblique-54e2c6d251bc0dca085934884413c624.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extendedheavyoblique-b2e59a3213f0e0b88cab47bc535174b3.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Web';
+	font-display: swap;
+	font-weight: 900;
+	font-stretch: normal;
+	font-style: italic;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-heavyitalic-77ace5b650d289738c421e141a68ce1b.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-heavyitalic-b6d37a5fc48d9452487b0c4ec10d98d2.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-heavyitalic-c85b9dc9531609c5dc3b764b9a90a6bc.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Web';
+	font-display: swap;
+	font-weight: 900;
+	font-stretch: expanded;
+	font-style: italic;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extendedheavyitalic-7ad34339c17b55b140bd251b1a5aac52.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extendedheavyitalic-57febddcf500ec1e04c985337dc3fb79.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-extendedheavyitalic-542191534a889e0fd4efbbc46bd5b496.ttf) format('truetype');
+}
+
+
+@font-face {
+	font-family: 'Iosevka Slab Web';
+	font-display: swap;
+	font-weight: 100;
+	font-stretch: normal;
+	font-style: normal;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-thin-15f66a706bcd423611c5ba2be894a77a.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-thin-253fb6c15532e49348c4bcecfe7df06e.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-thin-1e1ce82e9f47f8328a97b95e1857c7b6.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Slab Web';
+	font-display: swap;
+	font-weight: 100;
+	font-stretch: expanded;
+	font-style: normal;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extendedthin-fb1846375e1c6ce4836fc8d7ae9b2fee.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extendedthin-621c7a7fcee958b52b732c70c170b81a.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extendedthin-3c7325d569e858a19285cc95ad91e424.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Slab Web';
+	font-display: swap;
+	font-weight: 100;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-thinoblique-281908e4d3dc0f04b5c5091daa86039c.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-thinoblique-4ed77383403f7d3ce327ea9f8a474b2c.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-thinoblique-77aed3f3821accc3f1d076d4ccab8dff.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Slab Web Oblique';
+	font-display: swap;
+	font-weight: 100;
+	font-stretch: normal;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-thinoblique-281908e4d3dc0f04b5c5091daa86039c.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-thinoblique-4ed77383403f7d3ce327ea9f8a474b2c.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-thinoblique-77aed3f3821accc3f1d076d4ccab8dff.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Slab Web';
+	font-display: swap;
+	font-weight: 100;
+	font-stretch: expanded;
+	font-style: oblique;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extendedthinoblique-81776bbf836bbb05498928181b9bd045.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extendedthinoblique-30d553a4900aac34d159d72e1397a958.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extendedthinoblique-f2f3b05a204f2d5c1d6f85a59fa0967f.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Slab Web Oblique';
+	font-display: swap;
+	font-weight: 100;
+	font-stretch: expanded;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extendedthinoblique-81776bbf836bbb05498928181b9bd045.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extendedthinoblique-30d553a4900aac34d159d72e1397a958.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extendedthinoblique-f2f3b05a204f2d5c1d6f85a59fa0967f.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Slab Web';
+	font-display: swap;
+	font-weight: 100;
+	font-stretch: normal;
+	font-style: italic;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-thinitalic-a3b16d0f7c85d64e58cd95af338ece5c.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-thinitalic-09e7beb9bd200a0b58e8c51845a48bfe.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-thinitalic-db38c418ef5756382a60255c414b1ebe.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Slab Web';
+	font-display: swap;
+	font-weight: 100;
+	font-stretch: expanded;
+	font-style: italic;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extendedthinitalic-de5630213ed20d561e45847eb7c4c993.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extendedthinitalic-ce752036b95dc45f9560b38e976de74b.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extendedthinitalic-e89612eeec53eea28b628f188bf7ffce.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Slab Web';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: normal;
+	font-style: normal;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extralight-48a782fde58b295bf2642e99dffff80c.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extralight-ce8f9511f2a553f5d83341b4c7bace3b.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extralight-39f012b46db27019eee44604909763a1.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Slab Web';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: expanded;
+	font-style: normal;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extendedextralight-60dd5763ff4aa36923ea0edab1cff339.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extendedextralight-66a9e960863d8266f6ccfa37a243eb64.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extendedextralight-854f03bcbc878fd9880720e67c6ada2d.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Slab Web';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extralightoblique-0fbd2def5aa884c2f27c563167ea84df.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extralightoblique-2bfe9db249daf8a0b2da96b87a7c7a47.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extralightoblique-af8d1e144082027d29b5287dd283f4a3.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Slab Web Oblique';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: normal;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extralightoblique-0fbd2def5aa884c2f27c563167ea84df.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extralightoblique-2bfe9db249daf8a0b2da96b87a7c7a47.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extralightoblique-af8d1e144082027d29b5287dd283f4a3.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Slab Web';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: expanded;
+	font-style: oblique;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extendedextralightoblique-ebc8074f0c2dee9ca89a6fdd28bfe956.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extendedextralightoblique-ed4cb18c3c34b7411a62e25a642770c4.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extendedextralightoblique-9a546e64e3487b548acf3c22b2bc5acf.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Slab Web Oblique';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: expanded;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extendedextralightoblique-ebc8074f0c2dee9ca89a6fdd28bfe956.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extendedextralightoblique-ed4cb18c3c34b7411a62e25a642770c4.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extendedextralightoblique-9a546e64e3487b548acf3c22b2bc5acf.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Slab Web';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: normal;
+	font-style: italic;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extralightitalic-4f492f3cb52e486b27b910bfec0fd96b.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extralightitalic-381e86d4ae25ac2b5be43d0274ff8423.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extralightitalic-cafc01529e66ad3a6b6a067ee0667428.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Slab Web';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: expanded;
+	font-style: italic;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extendedextralightitalic-b5d84680ce5e4e16f9ccc77cdc493372.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extendedextralightitalic-cbe8b2202f0feb553511dda5e54e42c2.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extendedextralightitalic-a89fba11a02650d14f2e60a2686f2ca4.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Slab Web';
+	font-display: swap;
+	font-weight: 300;
+	font-stretch: normal;
+	font-style: normal;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-light-1c875776a8bae619d0f3887278338ab6.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-light-660242859268bed1e147492bd7bf4597.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-light-01236e33b25aaa034ba1429d546d9ffa.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Slab Web';
+	font-display: swap;
+	font-weight: 300;
+	font-stretch: expanded;
+	font-style: normal;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extendedlight-9596d61636bfdd3a41ff8e47c443c577.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extendedlight-b6a65ea01db043181d3812dbfab12177.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extendedlight-e567fe48674ca69c9fc2790c54afa4fb.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Slab Web';
+	font-display: swap;
+	font-weight: 300;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-lightoblique-fd771a68422be328697820f00bf405b9.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-lightoblique-ed8e781a6e5a308e641db70eaf9b397f.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-lightoblique-33ef6a075d22ce714aa1f6b8b9e532b6.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Slab Web Oblique';
+	font-display: swap;
+	font-weight: 300;
+	font-stretch: normal;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-lightoblique-fd771a68422be328697820f00bf405b9.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-lightoblique-ed8e781a6e5a308e641db70eaf9b397f.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-lightoblique-33ef6a075d22ce714aa1f6b8b9e532b6.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Slab Web';
+	font-display: swap;
+	font-weight: 300;
+	font-stretch: expanded;
+	font-style: oblique;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extendedlightoblique-3ea5e73735f61adac457dbfb782c8664.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extendedlightoblique-d4cd555b48cb650359d68bee03ba6bdc.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extendedlightoblique-75dc5cf297e6fd213628909d95df537c.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Slab Web Oblique';
+	font-display: swap;
+	font-weight: 300;
+	font-stretch: expanded;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extendedlightoblique-3ea5e73735f61adac457dbfb782c8664.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extendedlightoblique-d4cd555b48cb650359d68bee03ba6bdc.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extendedlightoblique-75dc5cf297e6fd213628909d95df537c.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Slab Web';
+	font-display: swap;
+	font-weight: 300;
+	font-stretch: normal;
+	font-style: italic;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-lightitalic-8ef71d534d65799c7755fcd87183bd72.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-lightitalic-a928759960fd1ff1e26ebc72a45ead59.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-lightitalic-dfbd19e5022180b4dc5e3110a43144ba.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Slab Web';
+	font-display: swap;
+	font-weight: 300;
+	font-stretch: expanded;
+	font-style: italic;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extendedlightitalic-7048e5212ccef69b30c92e28d3770258.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extendedlightitalic-36167d5c78f10a4b1e4a2139d121ee10.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extendedlightitalic-f4ec28cfd5cd62bde73f574f994f0424.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Slab Web';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: normal;
+	font-style: normal;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-regular-aadde72e0041a533d10ed2d9f711da5f.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-regular-1304d0f1289181cf7a049c7d2c1091f1.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-regular-0c12629e07141cd1a3c58aeb1c8dab2c.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Slab Web';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: expanded;
+	font-style: normal;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extended-00a0d640b71ee104ede00247a5d1f3b4.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extended-f0aa52a301f8b15c7972ab5f8bf68b20.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extended-3ce59013c4a6945f3a6a8450c1758bb1.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Slab Web';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-oblique-fd06ae678639c82bba2935fe5d0dbc88.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-oblique-eaf30293a6b8230043023e59ca6039dc.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-oblique-7e41ac3e46b6879c7f311f9e7593d33b.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Slab Web Oblique';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: normal;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-oblique-fd06ae678639c82bba2935fe5d0dbc88.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-oblique-eaf30293a6b8230043023e59ca6039dc.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-oblique-7e41ac3e46b6879c7f311f9e7593d33b.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Slab Web';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: expanded;
+	font-style: oblique;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extendedoblique-69aaecd82071507ed9fc472f7b254ee8.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extendedoblique-90dad875a7f6245a5a3a9963ef2452ba.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extendedoblique-910fbc08d216f386b8ef9e9ebd31e625.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Slab Web Oblique';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: expanded;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extendedoblique-69aaecd82071507ed9fc472f7b254ee8.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extendedoblique-90dad875a7f6245a5a3a9963ef2452ba.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extendedoblique-910fbc08d216f386b8ef9e9ebd31e625.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Slab Web';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: normal;
+	font-style: italic;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-italic-125be198801b1f1b81ac26c5508cb03a.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-italic-cdafffeaa3d7dbd36e1915225518f8fd.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-italic-f5f41d9f17f910a2f4659e6bfc1ced34.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Slab Web';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: expanded;
+	font-style: italic;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extendeditalic-e6a2a7c949d0536bc50fc3fe6db1dc0f.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extendeditalic-ab28e9221cca7e8124864a16e798102a.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extendeditalic-19c018f7eb587b9cc4ad062e70d87365.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Slab Web';
+	font-display: swap;
+	font-weight: 500;
+	font-stretch: normal;
+	font-style: normal;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-medium-ea245cac8b4fbc02c7067b600a1065b9.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-medium-6b75f514165a380d09aeedb6d492aab5.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-medium-9a665bd5d8a87c0d4a934a1a3abc8ca0.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Slab Web';
+	font-display: swap;
+	font-weight: 500;
+	font-stretch: expanded;
+	font-style: normal;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extendedmedium-4f936277a95b2fe6e21318d40983594e.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extendedmedium-6f294d2d2d63e850e52b73b4b7770ff4.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extendedmedium-0e6f7facbe9bb4afcc66e239d136b523.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Slab Web';
+	font-display: swap;
+	font-weight: 500;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-mediumoblique-39fcedefb0d3d52c5d1028621a41c391.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-mediumoblique-979332e092d4e2608fa09e5b24482db7.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-mediumoblique-864ff0ddfc9c131d5a65aa83f203144c.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Slab Web Oblique';
+	font-display: swap;
+	font-weight: 500;
+	font-stretch: normal;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-mediumoblique-39fcedefb0d3d52c5d1028621a41c391.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-mediumoblique-979332e092d4e2608fa09e5b24482db7.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-mediumoblique-864ff0ddfc9c131d5a65aa83f203144c.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Slab Web';
+	font-display: swap;
+	font-weight: 500;
+	font-stretch: expanded;
+	font-style: oblique;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extendedmediumoblique-5787542baa5b4f9c671d78ca9c172ccd.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extendedmediumoblique-cfca8085de3094b9a93da89d9d246c07.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extendedmediumoblique-d413a3779483bcb1648b3bba3933bf4c.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Slab Web Oblique';
+	font-display: swap;
+	font-weight: 500;
+	font-stretch: expanded;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extendedmediumoblique-5787542baa5b4f9c671d78ca9c172ccd.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extendedmediumoblique-cfca8085de3094b9a93da89d9d246c07.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extendedmediumoblique-d413a3779483bcb1648b3bba3933bf4c.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Slab Web';
+	font-display: swap;
+	font-weight: 500;
+	font-stretch: normal;
+	font-style: italic;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-mediumitalic-6a0b4081d765b57585552cea98609402.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-mediumitalic-3f30944be877ea20d7b600cc16dc667d.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-mediumitalic-30024c5af4a443ed1af45aa7a8ec47ff.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Slab Web';
+	font-display: swap;
+	font-weight: 500;
+	font-stretch: expanded;
+	font-style: italic;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extendedmediumitalic-26abf4dc7b29bf00fedaffd3f7c9a3c7.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extendedmediumitalic-8a22e1047c2b68f364e8aeea72413952.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extendedmediumitalic-ac8e2f2010dbd07f99a1b5ac0b9290f1.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Slab Web';
+	font-display: swap;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-semibold-d973bfc3e628adc91e459f5d4bc46a58.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-semibold-da0feee3a0ef02d6499583353b86d1c6.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-semibold-733590802c42daf23f3ca3c550a648fc.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Slab Web';
+	font-display: swap;
+	font-weight: 600;
+	font-stretch: expanded;
+	font-style: normal;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extendedsemibold-590fab5fb62049a6b5d416216b63580e.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extendedsemibold-51301dc0bbe96adf53f81b90e43563ee.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extendedsemibold-b876a5415de1e327e756b2ceff78ad00.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Slab Web';
+	font-display: swap;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-semiboldoblique-edcef456fe7f01b0d791998af8b49ba1.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-semiboldoblique-aeae1b1cc29685b12130b2dd818203d3.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-semiboldoblique-e2b7faf3fb788c91db0de076e8405fa7.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Slab Web Oblique';
+	font-display: swap;
+	font-weight: 600;
+	font-stretch: normal;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-semiboldoblique-edcef456fe7f01b0d791998af8b49ba1.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-semiboldoblique-aeae1b1cc29685b12130b2dd818203d3.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-semiboldoblique-e2b7faf3fb788c91db0de076e8405fa7.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Slab Web';
+	font-display: swap;
+	font-weight: 600;
+	font-stretch: expanded;
+	font-style: oblique;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extendedsemiboldoblique-019cec6aa5b2b876066385a33f877643.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extendedsemiboldoblique-b6c65d828ab9a262fdfba168ec76dc4a.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extendedsemiboldoblique-48a1fa5f027b88c7755665e96c9fdbcb.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Slab Web Oblique';
+	font-display: swap;
+	font-weight: 600;
+	font-stretch: expanded;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extendedsemiboldoblique-019cec6aa5b2b876066385a33f877643.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extendedsemiboldoblique-b6c65d828ab9a262fdfba168ec76dc4a.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extendedsemiboldoblique-48a1fa5f027b88c7755665e96c9fdbcb.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Slab Web';
+	font-display: swap;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: italic;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-semibolditalic-c8690dbe83bd5da24544a54351ab3ad6.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-semibolditalic-b112040cdb1015926f71a0076bf8d863.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-semibolditalic-f97747a1996395173afa3dfe0974cba2.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Slab Web';
+	font-display: swap;
+	font-weight: 600;
+	font-stretch: expanded;
+	font-style: italic;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extendedsemibolditalic-f1d73f2126a137715bb031cc0b072887.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extendedsemibolditalic-69aab9178e693fea1c10621b8055357e.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extendedsemibolditalic-bdd6498d9040edd7476403161a27151f.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Slab Web';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: normal;
+	font-style: normal;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-bold-7150893824ab1cff9a337a41fc304749.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-bold-9dc85197e59d5b77181bd2c424db3849.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-bold-b8522acd59240ac764e857c6ead56d4e.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Slab Web';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: expanded;
+	font-style: normal;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extendedbold-534b9e13a48737c5ddd89c5075193f78.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extendedbold-b3c85a52cb9699fed7549ff261b86634.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extendedbold-9d89f146abcb30966957146c2c25aa3a.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Slab Web';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-boldoblique-09d03eefa65588b14952fe01be3f11ff.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-boldoblique-c8adafe2a40316d5f5e7573c8551c285.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-boldoblique-4f3a93c0235a258031e5b5981da70d99.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Slab Web Oblique';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: normal;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-boldoblique-09d03eefa65588b14952fe01be3f11ff.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-boldoblique-c8adafe2a40316d5f5e7573c8551c285.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-boldoblique-4f3a93c0235a258031e5b5981da70d99.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Slab Web';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: expanded;
+	font-style: oblique;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extendedboldoblique-736d11004cb7f7b11cff3b203c846c4e.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extendedboldoblique-d88408e3655d1959b5758802bc8d8848.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extendedboldoblique-8f32358bc78a7950435d8a38cec94d04.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Slab Web Oblique';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: expanded;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extendedboldoblique-736d11004cb7f7b11cff3b203c846c4e.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extendedboldoblique-d88408e3655d1959b5758802bc8d8848.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extendedboldoblique-8f32358bc78a7950435d8a38cec94d04.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Slab Web';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: normal;
+	font-style: italic;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-bolditalic-3592dad44ef17270e418936d3c08310e.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-bolditalic-4e4c22434b1affc9806df4179c91b24e.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-bolditalic-628c57ddb0a178df5c2e9d3a7803e32f.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Slab Web';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: expanded;
+	font-style: italic;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extendedbolditalic-3166646da77f8725f8d914ba9ef2d290.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extendedbolditalic-8e2c2fc1e3fe134b5ccc8ce23f68c95b.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extendedbolditalic-b875cbabf9fe84e339799b9f9e49be80.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Slab Web';
+	font-display: swap;
+	font-weight: 800;
+	font-stretch: normal;
+	font-style: normal;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extrabold-c94f0873a3714f002a934ba17e4f33c5.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extrabold-a73ba0e35b7279e55a22b463a05dee87.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extrabold-b3b9bf6dc9574ee6cc74f6b5006d9a4a.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Slab Web';
+	font-display: swap;
+	font-weight: 800;
+	font-stretch: expanded;
+	font-style: normal;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extendedextrabold-48634c82f1babcc6407f3656a3ce874b.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extendedextrabold-3350511521578e25d0e2c05328e212f6.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extendedextrabold-67f7ab4d9f28eaf67b3c0ed4f030e7c8.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Slab Web';
+	font-display: swap;
+	font-weight: 800;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extraboldoblique-23921c8d3ace583e2b71360a34384d9f.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extraboldoblique-91fbd12f9a5698a8f741cad143875e3c.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extraboldoblique-5f05a6d1a73e105d9380eb2548c6ece1.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Slab Web Oblique';
+	font-display: swap;
+	font-weight: 800;
+	font-stretch: normal;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extraboldoblique-23921c8d3ace583e2b71360a34384d9f.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extraboldoblique-91fbd12f9a5698a8f741cad143875e3c.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extraboldoblique-5f05a6d1a73e105d9380eb2548c6ece1.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Slab Web';
+	font-display: swap;
+	font-weight: 800;
+	font-stretch: expanded;
+	font-style: oblique;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extendedextraboldoblique-a703f8fb22f72e20b6e6a9668e7958f9.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extendedextraboldoblique-8a78088ba624eee33eb3a0fe9cf55e8c.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extendedextraboldoblique-9d2c840c921ab0642dc5e9b7420a32e8.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Slab Web Oblique';
+	font-display: swap;
+	font-weight: 800;
+	font-stretch: expanded;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extendedextraboldoblique-a703f8fb22f72e20b6e6a9668e7958f9.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extendedextraboldoblique-8a78088ba624eee33eb3a0fe9cf55e8c.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extendedextraboldoblique-9d2c840c921ab0642dc5e9b7420a32e8.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Slab Web';
+	font-display: swap;
+	font-weight: 800;
+	font-stretch: normal;
+	font-style: italic;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extrabolditalic-e97c42f9ef62e92f5dd9b9b06e986e20.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extrabolditalic-b12b3aedbed3983a863350cb6469eaf0.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extrabolditalic-e175e4fcd55e78f21f31e0a92a106651.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Slab Web';
+	font-display: swap;
+	font-weight: 800;
+	font-stretch: expanded;
+	font-style: italic;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extendedextrabolditalic-a42e8583e7b25c39018865988e115727.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extendedextrabolditalic-a37a609f33a659f9c7ce08752d309708.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extendedextrabolditalic-04e74a202c4e94a5dab71d2fa33aad92.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Slab Web';
+	font-display: swap;
+	font-weight: 900;
+	font-stretch: normal;
+	font-style: normal;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-heavy-93faaaeb96a3d96bc68bd3227ff14f28.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-heavy-dbdbe6460e087974b94f780e3d4a7579.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-heavy-cfef9b9116ea5c0a9ec2b5a56b141f0d.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Slab Web';
+	font-display: swap;
+	font-weight: 900;
+	font-stretch: expanded;
+	font-style: normal;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extendedheavy-4c1355c0d1626ffa50f82727eb7f5d0d.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extendedheavy-a0e6be3fdd57cc0f34837a658c5a85c9.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extendedheavy-193d8deca7ea23a37c62f2f462285c60.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Slab Web';
+	font-display: swap;
+	font-weight: 900;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-heavyoblique-f34356f31ed6fcaf3d9ca573db32ad76.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-heavyoblique-2f41a936b767ffe8d9030a8df3765f3f.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-heavyoblique-c0c5a6736f63ff40782ca062c481869f.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Slab Web Oblique';
+	font-display: swap;
+	font-weight: 900;
+	font-stretch: normal;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-heavyoblique-f34356f31ed6fcaf3d9ca573db32ad76.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-heavyoblique-2f41a936b767ffe8d9030a8df3765f3f.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-heavyoblique-c0c5a6736f63ff40782ca062c481869f.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Slab Web';
+	font-display: swap;
+	font-weight: 900;
+	font-stretch: expanded;
+	font-style: oblique;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extendedheavyoblique-3cce8a19784342b7cb53b0b21205b369.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extendedheavyoblique-87cc4dc1cf80a824aa56a4beb8e4cb57.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extendedheavyoblique-11deee368cd5bcc35ef59be5e48baf2a.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Slab Web Oblique';
+	font-display: swap;
+	font-weight: 900;
+	font-stretch: expanded;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extendedheavyoblique-3cce8a19784342b7cb53b0b21205b369.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extendedheavyoblique-87cc4dc1cf80a824aa56a4beb8e4cb57.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extendedheavyoblique-11deee368cd5bcc35ef59be5e48baf2a.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Slab Web';
+	font-display: swap;
+	font-weight: 900;
+	font-stretch: normal;
+	font-style: italic;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-heavyitalic-8f373e3516766273190757374552a9ec.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-heavyitalic-2b9a750c4ae1e3e9c3d85620bf6ecb60.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-heavyitalic-6fa53c5a1cd6b418526348a766757266.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Slab Web';
+	font-display: swap;
+	font-weight: 900;
+	font-stretch: expanded;
+	font-style: italic;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extendedheavyitalic-bf16138a6f97ede5b22a370f7e55c97d.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extendedheavyitalic-d48e95768be50550fb92580bca310dad.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-slab-extendedheavyitalic-50686653548122d4200a14fe820f15aa.ttf) format('truetype');
+}
+
+
+@font-face {
+	font-family: 'Iosevka Aile Web';
+	font-display: swap;
+	font-weight: 100;
+	font-stretch: normal;
+	font-style: normal;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-aile-thin-84ba8bf5b384c4745c8a13fa5733d54f.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-aile-thin-417d36d62ca64a59a0acb0855d57c4c4.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-aile-thin-cb0c9fa9c0327928f3a263af57dfd28a.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Aile Web';
+	font-display: swap;
+	font-weight: 100;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-aile-thinoblique-47f637d0d380f3ee811e557130a40762.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-aile-thinoblique-819c91a14cbcab86f5089e910a0cc4ff.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-aile-thinoblique-d107cf43fb79920eeb9eaa712a091d77.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Aile Web Oblique';
+	font-display: swap;
+	font-weight: 100;
+	font-stretch: normal;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-aile-thinoblique-47f637d0d380f3ee811e557130a40762.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-aile-thinoblique-819c91a14cbcab86f5089e910a0cc4ff.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-aile-thinoblique-d107cf43fb79920eeb9eaa712a091d77.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Aile Web';
+	font-display: swap;
+	font-weight: 100;
+	font-stretch: normal;
+	font-style: italic;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-aile-thinitalic-52d770d34028b06f7f78d26ab0d898fc.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-aile-thinitalic-222fa8177819692e60c3c4e1d7180b70.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-aile-thinitalic-e10e7866156d5c332e57040c857c8cec.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Aile Web';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: normal;
+	font-style: normal;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-aile-extralight-5010a5204eae3559b3ffbec0cbbdef5e.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-aile-extralight-c202f4b64b875d14636f32f1940028ea.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-aile-extralight-3eb495ca2a1045ac534f7f50903e9ef3.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Aile Web';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-aile-extralightoblique-b05330a4fe209576443fbbff4efad9e7.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-aile-extralightoblique-d6492729c0610c9b054d1a09d710e1d5.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-aile-extralightoblique-13d9aaa1478e81d56763eea3cee13419.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Aile Web Oblique';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: normal;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-aile-extralightoblique-b05330a4fe209576443fbbff4efad9e7.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-aile-extralightoblique-d6492729c0610c9b054d1a09d710e1d5.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-aile-extralightoblique-13d9aaa1478e81d56763eea3cee13419.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Aile Web';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: normal;
+	font-style: italic;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-aile-extralightitalic-ffb4851d2ce145460cdc7b57ae816985.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-aile-extralightitalic-b3995d009a519208fdfa77b63266c06d.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-aile-extralightitalic-aedb579047f62c0069f1ff39002aa286.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Aile Web';
+	font-display: swap;
+	font-weight: 300;
+	font-stretch: normal;
+	font-style: normal;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-aile-light-11b0a9b780bd2075658cd3fdce99c751.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-aile-light-f3ff85aeee3fc808717cf85937abf1d9.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-aile-light-350c1f661c0c2755e97bfc3b73766d89.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Aile Web';
+	font-display: swap;
+	font-weight: 300;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-aile-lightoblique-3d5721a5225c26f9bd1cc46dc7c10bcb.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-aile-lightoblique-ee2ed05fbd6560192424130c7527aae6.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-aile-lightoblique-bc5ac25fcbe548816035d9c81a90ffe5.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Aile Web Oblique';
+	font-display: swap;
+	font-weight: 300;
+	font-stretch: normal;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-aile-lightoblique-3d5721a5225c26f9bd1cc46dc7c10bcb.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-aile-lightoblique-ee2ed05fbd6560192424130c7527aae6.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-aile-lightoblique-bc5ac25fcbe548816035d9c81a90ffe5.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Aile Web';
+	font-display: swap;
+	font-weight: 300;
+	font-stretch: normal;
+	font-style: italic;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-aile-lightitalic-e16351920d36dee42da1da0e86c2d7bc.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-aile-lightitalic-276a039877a657671cded11f7a78e465.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-aile-lightitalic-707e76c1f8208d4d6041c7ee8aa87a0a.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Aile Web';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: normal;
+	font-style: normal;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-aile-regular-683c831fa2424e7c7d9207a794c469ac.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-aile-regular-905e285c22394e7864318f0522e061d7.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-aile-regular-f9fa7e113d88a9a7e98201f7e9c69475.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Aile Web';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-aile-oblique-d434ffb6911f91ce21fefb304749c8cd.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-aile-oblique-d7c0458ecdb6302d3c66703e1b95e73c.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-aile-oblique-000db88b3d1ad2f9fe3b865d0bd31e61.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Aile Web Oblique';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: normal;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-aile-oblique-d434ffb6911f91ce21fefb304749c8cd.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-aile-oblique-d7c0458ecdb6302d3c66703e1b95e73c.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-aile-oblique-000db88b3d1ad2f9fe3b865d0bd31e61.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Aile Web';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: normal;
+	font-style: italic;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-aile-italic-cb0439dd70ec213e0ba19766dc8aba10.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-aile-italic-bf6794c40a62056683ca06796afb960a.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-aile-italic-990d54952ba7c262faf04f9d919db30b.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Aile Web';
+	font-display: swap;
+	font-weight: 500;
+	font-stretch: normal;
+	font-style: normal;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-aile-medium-1b8d540531e0d7b541cb01d6af487d9d.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-aile-medium-64b893bd8fed53077a03f2a823676c41.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-aile-medium-8f68b314e1aa66f0f0272557b5117b7e.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Aile Web';
+	font-display: swap;
+	font-weight: 500;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-aile-mediumoblique-078499da2ff0b58d8562c1738d4d7d06.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-aile-mediumoblique-aa473679a35862a37e79f1757b1aa5e4.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-aile-mediumoblique-5099bba816c0f1386d4a726e1d37ba7c.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Aile Web Oblique';
+	font-display: swap;
+	font-weight: 500;
+	font-stretch: normal;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-aile-mediumoblique-078499da2ff0b58d8562c1738d4d7d06.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-aile-mediumoblique-aa473679a35862a37e79f1757b1aa5e4.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-aile-mediumoblique-5099bba816c0f1386d4a726e1d37ba7c.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Aile Web';
+	font-display: swap;
+	font-weight: 500;
+	font-stretch: normal;
+	font-style: italic;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-aile-mediumitalic-4cdc21a45e7257691259985a7e783382.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-aile-mediumitalic-6b3b665bd6118b8f6ca0e635f27524ee.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-aile-mediumitalic-ca2656268b21a1453c7b3f8f6a923a7c.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Aile Web';
+	font-display: swap;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-aile-semibold-2f4a149d91565583ed02e1d3331d336e.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-aile-semibold-840964a49a28b25f25d231eaf1ecb290.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-aile-semibold-dca0dd6576724c2b65a50a941789b6ef.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Aile Web';
+	font-display: swap;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-aile-semiboldoblique-edb1873d432130fd7fe83ab2a87208f4.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-aile-semiboldoblique-d82db9264f1dc71b86050dd8b7658f17.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-aile-semiboldoblique-a925e8e82b7ab88171b88ccd7ae7ddf1.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Aile Web Oblique';
+	font-display: swap;
+	font-weight: 600;
+	font-stretch: normal;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-aile-semiboldoblique-edb1873d432130fd7fe83ab2a87208f4.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-aile-semiboldoblique-d82db9264f1dc71b86050dd8b7658f17.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-aile-semiboldoblique-a925e8e82b7ab88171b88ccd7ae7ddf1.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Aile Web';
+	font-display: swap;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: italic;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-aile-semibolditalic-0572a54726163892cff4a5e59ebc93e5.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-aile-semibolditalic-f3a953a934f311d5edcc629f64f3f8c0.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-aile-semibolditalic-1d578a91697e8b8183193081ac660cb0.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Aile Web';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: normal;
+	font-style: normal;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-aile-bold-b6f0b76183c7b1171b3a2b5580c754dd.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-aile-bold-535b77b2b9a88b9869385d67f382d42d.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-aile-bold-320ad0ba624850eea2c4ba432cdcbb81.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Aile Web';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-aile-boldoblique-2e070098ad269826f4b330d57e807912.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-aile-boldoblique-e805b4f44c10771bbb909e9708251179.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-aile-boldoblique-4b03995beaefce8fe1b30a6f910b2f1b.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Aile Web Oblique';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: normal;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-aile-boldoblique-2e070098ad269826f4b330d57e807912.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-aile-boldoblique-e805b4f44c10771bbb909e9708251179.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-aile-boldoblique-4b03995beaefce8fe1b30a6f910b2f1b.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Aile Web';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: normal;
+	font-style: italic;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-aile-bolditalic-45351609e5d1bf2098f17f810b522a22.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-aile-bolditalic-3a5367e50dfcfded8ac15a0a6515954c.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-aile-bolditalic-6410133f31ffabcdbb0263eaa134fb39.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Aile Web';
+	font-display: swap;
+	font-weight: 800;
+	font-stretch: normal;
+	font-style: normal;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-aile-extrabold-cd1d5771cafd996a1b393d7ed016aaf5.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-aile-extrabold-02641663823f536a8bd19715bb603779.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-aile-extrabold-ef288e9d20ab8e8a9094e09da476cf5b.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Aile Web';
+	font-display: swap;
+	font-weight: 800;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-aile-extraboldoblique-26e6076f0678e93aa3d358e6bf3f404a.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-aile-extraboldoblique-8fc5c52d6256bc5af5ee233d93652488.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-aile-extraboldoblique-a24b7e3d70d932c906328cf36e2babec.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Aile Web Oblique';
+	font-display: swap;
+	font-weight: 800;
+	font-stretch: normal;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-aile-extraboldoblique-26e6076f0678e93aa3d358e6bf3f404a.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-aile-extraboldoblique-8fc5c52d6256bc5af5ee233d93652488.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-aile-extraboldoblique-a24b7e3d70d932c906328cf36e2babec.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Aile Web';
+	font-display: swap;
+	font-weight: 800;
+	font-stretch: normal;
+	font-style: italic;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-aile-extrabolditalic-b3b7f439f810be3fc6a4704ac1486bd4.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-aile-extrabolditalic-dc1691063f4ea06509fdd69cddd0625f.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-aile-extrabolditalic-d93312cf0aa52eac8be469de12af47d4.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Aile Web';
+	font-display: swap;
+	font-weight: 900;
+	font-stretch: normal;
+	font-style: normal;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-aile-heavy-cbec89a5c504e1f78266ab7b537a77ea.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-aile-heavy-963818b45176cc216ebb10bf17240fa3.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-aile-heavy-bfddcbef5d882f9cea85514243fe58df.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Aile Web';
+	font-display: swap;
+	font-weight: 900;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-aile-heavyoblique-68b821fc24f96fc7199d0348ffcb6f4e.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-aile-heavyoblique-e58c47819ac0bc7e4d32e4c96afaacb5.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-aile-heavyoblique-03b26aeb7b08a9ac4bc5a03ff402a6fd.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Aile Web Oblique';
+	font-display: swap;
+	font-weight: 900;
+	font-stretch: normal;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-aile-heavyoblique-68b821fc24f96fc7199d0348ffcb6f4e.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-aile-heavyoblique-e58c47819ac0bc7e4d32e4c96afaacb5.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-aile-heavyoblique-03b26aeb7b08a9ac4bc5a03ff402a6fd.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Aile Web';
+	font-display: swap;
+	font-weight: 900;
+	font-stretch: normal;
+	font-style: italic;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-aile-heavyitalic-a2469bcbfda3c40c6c85fb25a4cf6c6c.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-aile-heavyitalic-0643b8424e2b426552d6041263846830.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-aile-heavyitalic-8ed6a8c1cc2fec22e7687c55f7e39216.ttf) format('truetype');
+}
+
+
+@font-face {
+	font-family: 'Iosevka Etoile Web';
+	font-display: swap;
+	font-weight: 100;
+	font-stretch: normal;
+	font-style: normal;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-etoile-thin-c8bf1cb7c6c5883e3529ac5b6437490a.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-etoile-thin-188d045a100837a574c0062a674aa444.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-etoile-thin-4b7bf8add62e3cef420be66074212836.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Etoile Web';
+	font-display: swap;
+	font-weight: 100;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-etoile-thinoblique-6b220ecc1f7d858b2f2c50d8a926291a.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-etoile-thinoblique-f28fd18f3aa702533e46844ea90a894c.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-etoile-thinoblique-1f497e078ce484731753417e4fbce94a.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Etoile Web Oblique';
+	font-display: swap;
+	font-weight: 100;
+	font-stretch: normal;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-etoile-thinoblique-6b220ecc1f7d858b2f2c50d8a926291a.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-etoile-thinoblique-f28fd18f3aa702533e46844ea90a894c.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-etoile-thinoblique-1f497e078ce484731753417e4fbce94a.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Etoile Web';
+	font-display: swap;
+	font-weight: 100;
+	font-stretch: normal;
+	font-style: italic;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-etoile-thinitalic-6c99ddaaf9a82a075f79d3ef015c0694.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-etoile-thinitalic-efff52f839a098f4bce3231f3cabc856.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-etoile-thinitalic-234b3cd74417c006bc4d9eb17d8852fb.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Etoile Web';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: normal;
+	font-style: normal;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-etoile-extralight-8c2f1af6daad8f197a0bbd5789459eb5.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-etoile-extralight-b61347c4bb6b8073bd26f61ccd100cd1.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-etoile-extralight-64b3c6d35877225563d41f095f0a9ade.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Etoile Web';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-etoile-extralightoblique-59a982d0a247020909247696fd05eba0.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-etoile-extralightoblique-86749a54c89dbfdc95afd13284fa6396.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-etoile-extralightoblique-1d2b8e78fd1400660389406f5da567aa.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Etoile Web Oblique';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: normal;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-etoile-extralightoblique-59a982d0a247020909247696fd05eba0.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-etoile-extralightoblique-86749a54c89dbfdc95afd13284fa6396.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-etoile-extralightoblique-1d2b8e78fd1400660389406f5da567aa.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Etoile Web';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: normal;
+	font-style: italic;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-etoile-extralightitalic-84f00deacbd06f4b0e972bcadb0e2a2b.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-etoile-extralightitalic-091b0a408a14b888c85f93d67945d5bc.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-etoile-extralightitalic-2019925208d684218b161e397bafaf6c.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Etoile Web';
+	font-display: swap;
+	font-weight: 300;
+	font-stretch: normal;
+	font-style: normal;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-etoile-light-9826b42f9f8de00372a9731ea144f84f.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-etoile-light-c0389c04b63e9ad6e254a0b1f9364c0e.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-etoile-light-93d4a1fb403b74fb84eeec1b5f2da244.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Etoile Web';
+	font-display: swap;
+	font-weight: 300;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-etoile-lightoblique-e3fcb51601bcbb8aacdeed5521e58f91.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-etoile-lightoblique-1967473f760a602564ab1def0f6c002c.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-etoile-lightoblique-7cdb46924f1e0ed8aac1fb05e5d2fc5f.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Etoile Web Oblique';
+	font-display: swap;
+	font-weight: 300;
+	font-stretch: normal;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-etoile-lightoblique-e3fcb51601bcbb8aacdeed5521e58f91.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-etoile-lightoblique-1967473f760a602564ab1def0f6c002c.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-etoile-lightoblique-7cdb46924f1e0ed8aac1fb05e5d2fc5f.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Etoile Web';
+	font-display: swap;
+	font-weight: 300;
+	font-stretch: normal;
+	font-style: italic;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-etoile-lightitalic-36df61076416f457bf81a19943116f3c.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-etoile-lightitalic-224dcb1337a2277d8030b742ed93d24a.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-etoile-lightitalic-88c3ccf638e66e5a5e1d653847f66c32.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Etoile Web';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: normal;
+	font-style: normal;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-etoile-regular-9172975a219bdd19dfa84cb535ba0b92.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-etoile-regular-7107f67b7ed8d2c11bb48f25bd521302.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-etoile-regular-188779cd7af89b15215d4c97097be8e3.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Etoile Web';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-etoile-oblique-0eeae0a4d30638e5979578f634dee011.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-etoile-oblique-c4e7565feb087e4210c6dc9097701b97.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-etoile-oblique-7e686eb002a1b3bcd4731194d403d830.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Etoile Web Oblique';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: normal;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-etoile-oblique-0eeae0a4d30638e5979578f634dee011.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-etoile-oblique-c4e7565feb087e4210c6dc9097701b97.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-etoile-oblique-7e686eb002a1b3bcd4731194d403d830.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Etoile Web';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: normal;
+	font-style: italic;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-etoile-italic-e14ee7661f966f55a9a00811cfa6f3ff.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-etoile-italic-b00947f65942737a228042049f123769.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-etoile-italic-fd1fcc89f65d726b215d7d9d73859297.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Etoile Web';
+	font-display: swap;
+	font-weight: 500;
+	font-stretch: normal;
+	font-style: normal;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-etoile-medium-bf0832c3eb24953a4ba32d3b5cae8e24.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-etoile-medium-ec90c047194f2008a58700635109c2eb.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-etoile-medium-8a1305a698aa19b205b2f4819f858281.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Etoile Web';
+	font-display: swap;
+	font-weight: 500;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-etoile-mediumoblique-85b1d5699d941be3047f7b707a5e1a6c.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-etoile-mediumoblique-3232d2e304303a135a87872e731d2626.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-etoile-mediumoblique-0a685d8bc847307928a2e9ef74b21bbe.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Etoile Web Oblique';
+	font-display: swap;
+	font-weight: 500;
+	font-stretch: normal;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-etoile-mediumoblique-85b1d5699d941be3047f7b707a5e1a6c.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-etoile-mediumoblique-3232d2e304303a135a87872e731d2626.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-etoile-mediumoblique-0a685d8bc847307928a2e9ef74b21bbe.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Etoile Web';
+	font-display: swap;
+	font-weight: 500;
+	font-stretch: normal;
+	font-style: italic;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-etoile-mediumitalic-b09068efeccef5c5b7d4fe1efe98da1c.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-etoile-mediumitalic-fc902628a8620d9432e8ffb667fbe879.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-etoile-mediumitalic-28673cf87c6fc625d9aa1034b2b6c105.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Etoile Web';
+	font-display: swap;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-etoile-semibold-422c395f7ac85ae76ec9188ea4988c80.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-etoile-semibold-23b53f57e2214d53466c3d670668e616.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-etoile-semibold-dd73ae1d75ef235fb3a6c2e947fb9cd2.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Etoile Web';
+	font-display: swap;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-etoile-semiboldoblique-40713c63fe359fc2927c2c6275d099ca.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-etoile-semiboldoblique-dda2a54bee07555bf2b9b9836e136470.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-etoile-semiboldoblique-687bd9797d18fe3ccccf960467623655.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Etoile Web Oblique';
+	font-display: swap;
+	font-weight: 600;
+	font-stretch: normal;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-etoile-semiboldoblique-40713c63fe359fc2927c2c6275d099ca.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-etoile-semiboldoblique-dda2a54bee07555bf2b9b9836e136470.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-etoile-semiboldoblique-687bd9797d18fe3ccccf960467623655.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Etoile Web';
+	font-display: swap;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: italic;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-etoile-semibolditalic-afc62ecdff191da0e8988180c852f5c2.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-etoile-semibolditalic-1056527a2a76e87752b0a1bf3af8b2c5.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-etoile-semibolditalic-7fb2268a3b970fec14e507802301a0b7.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Etoile Web';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: normal;
+	font-style: normal;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-etoile-bold-de748241e78428556ef9f604402d6f6a.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-etoile-bold-db2225c30121fb49ccaf44f26edfaec3.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-etoile-bold-d2b5a8f777e547239a9b3def9d7fdcb6.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Etoile Web';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-etoile-boldoblique-1f856861b0e5eb0781b880c651123e30.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-etoile-boldoblique-79d900c483760ea2353520526719ad82.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-etoile-boldoblique-71405a2c564587bd17c7da032fc34d5b.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Etoile Web Oblique';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: normal;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-etoile-boldoblique-1f856861b0e5eb0781b880c651123e30.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-etoile-boldoblique-79d900c483760ea2353520526719ad82.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-etoile-boldoblique-71405a2c564587bd17c7da032fc34d5b.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Etoile Web';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: normal;
+	font-style: italic;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-etoile-bolditalic-06cf34bc35df081d297f81a84d4ed1a9.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-etoile-bolditalic-b674a93904432f2de4c5a07e42c7ab70.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-etoile-bolditalic-9266bd899494bc6995269e1e1e214f04.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Etoile Web';
+	font-display: swap;
+	font-weight: 800;
+	font-stretch: normal;
+	font-style: normal;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-etoile-extrabold-5026459522b2014e88ce2694f1f7065b.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-etoile-extrabold-0a370aed7904a38efd3dc183eca61b49.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-etoile-extrabold-4ab5a07738e46642b6a36b0ed769c7d6.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Etoile Web';
+	font-display: swap;
+	font-weight: 800;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-etoile-extraboldoblique-0858b6afcf2bac937bcb4ec96bd7a4a9.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-etoile-extraboldoblique-c733ac8b5c6349470cd3e29ad6b343d4.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-etoile-extraboldoblique-658371f36bd40f65fc1ee7b3bfd3a17f.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Etoile Web Oblique';
+	font-display: swap;
+	font-weight: 800;
+	font-stretch: normal;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-etoile-extraboldoblique-0858b6afcf2bac937bcb4ec96bd7a4a9.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-etoile-extraboldoblique-c733ac8b5c6349470cd3e29ad6b343d4.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-etoile-extraboldoblique-658371f36bd40f65fc1ee7b3bfd3a17f.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Etoile Web';
+	font-display: swap;
+	font-weight: 800;
+	font-stretch: normal;
+	font-style: italic;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-etoile-extrabolditalic-2c2c0626362f9842c6dca596aa774eb9.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-etoile-extrabolditalic-6dec088dfdc896a9cbc39ebb9aeb18d2.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-etoile-extrabolditalic-0c88c324091ab50a484787c938330870.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Etoile Web';
+	font-display: swap;
+	font-weight: 900;
+	font-stretch: normal;
+	font-style: normal;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-etoile-heavy-ed2c332bfcfabfaec4cf537c5eb62b35.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-etoile-heavy-0eb01d201fa34f4d54d7d13678e7dfff.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-etoile-heavy-f3320c19932ebd764dbf21369b7be540.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Etoile Web';
+	font-display: swap;
+	font-weight: 900;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-etoile-heavyoblique-f75dc116fb0cc8f5e0d10093d340be22.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-etoile-heavyoblique-01854cd223b642e715ed8971ff98134f.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-etoile-heavyoblique-e84718f126cb1681d0c637cdb35eab3c.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Etoile Web Oblique';
+	font-display: swap;
+	font-weight: 900;
+	font-stretch: normal;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-etoile-heavyoblique-f75dc116fb0cc8f5e0d10093d340be22.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-etoile-heavyoblique-01854cd223b642e715ed8971ff98134f.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-etoile-heavyoblique-e84718f126cb1681d0c637cdb35eab3c.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Etoile Web';
+	font-display: swap;
+	font-weight: 900;
+	font-stretch: normal;
+	font-style: italic;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-etoile-heavyitalic-05f296a00fbc549f5eb837f032b473c4.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-etoile-heavyitalic-656dc98832d609021be9e4adffe22846.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-etoile-heavyitalic-4f8b7cd3389dacb1be36977f1154ec49.ttf) format('truetype');
+}
+
+
+@font-face {
+	font-family: 'Iosevka Sparkle Web';
+	font-display: swap;
+	font-weight: 100;
+	font-stretch: normal;
+	font-style: normal;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-sparkle-thin-db77c13b176d9b289649e0e22537dde3.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-sparkle-thin-996cf21c17a24dd65fd1290db58964f4.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-sparkle-thin-afffb6a561f917ae0ec4731e9792b7be.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Sparkle Web';
+	font-display: swap;
+	font-weight: 100;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-sparkle-thinoblique-4658ba23af7da304a6c24bd0666bc92b.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-sparkle-thinoblique-24c5f0699bd8e12bb4ca5b43d97a0413.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-sparkle-thinoblique-02aa3391761eadc1c63bde3d13b8688a.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Sparkle Web Oblique';
+	font-display: swap;
+	font-weight: 100;
+	font-stretch: normal;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-sparkle-thinoblique-4658ba23af7da304a6c24bd0666bc92b.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-sparkle-thinoblique-24c5f0699bd8e12bb4ca5b43d97a0413.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-sparkle-thinoblique-02aa3391761eadc1c63bde3d13b8688a.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Sparkle Web';
+	font-display: swap;
+	font-weight: 100;
+	font-stretch: normal;
+	font-style: italic;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-sparkle-thinitalic-a8eecdae7b280074ea8352df3fc5561e.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-sparkle-thinitalic-43671acfb5e904d0f46b4fa5b191809c.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-sparkle-thinitalic-b5eb8fd08f1787ac324b26ba785af761.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Sparkle Web';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: normal;
+	font-style: normal;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-sparkle-extralight-90cd0132a6008f332105afbb08fceba0.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-sparkle-extralight-894b9fa08100749e67e94ccc0aa08559.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-sparkle-extralight-18fd29bfa3a9af8cb48d40e745c34941.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Sparkle Web';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-sparkle-extralightoblique-e9c22e0cfad9c1b0a5d2a4aa0094ca02.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-sparkle-extralightoblique-8cfa18723ced6f8bec2484e251fcf058.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-sparkle-extralightoblique-970673fbd82d5946d386522847038d97.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Sparkle Web Oblique';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: normal;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-sparkle-extralightoblique-e9c22e0cfad9c1b0a5d2a4aa0094ca02.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-sparkle-extralightoblique-8cfa18723ced6f8bec2484e251fcf058.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-sparkle-extralightoblique-970673fbd82d5946d386522847038d97.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Sparkle Web';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: normal;
+	font-style: italic;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-sparkle-extralightitalic-05d4666af87cbdd370f8c473619713f6.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-sparkle-extralightitalic-7591af89b141ed95cd7da7b30dfc26e9.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-sparkle-extralightitalic-00c7f7f7e99cbcac410c07e6e1a9e60c.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Sparkle Web';
+	font-display: swap;
+	font-weight: 300;
+	font-stretch: normal;
+	font-style: normal;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-sparkle-light-a8fa0b0f29967f48780a6b6046e04847.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-sparkle-light-f71ee5df065a3d6f88fa7920c7e08ee6.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-sparkle-light-b122638c65c19633cbc80279e0001aae.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Sparkle Web';
+	font-display: swap;
+	font-weight: 300;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-sparkle-lightoblique-878b156f64b0a994144f7b227a7223fc.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-sparkle-lightoblique-b41a7186b9e9ea16427407e7ca4ef394.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-sparkle-lightoblique-567b774bfa56e4b22b42ed420542143f.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Sparkle Web Oblique';
+	font-display: swap;
+	font-weight: 300;
+	font-stretch: normal;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-sparkle-lightoblique-878b156f64b0a994144f7b227a7223fc.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-sparkle-lightoblique-b41a7186b9e9ea16427407e7ca4ef394.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-sparkle-lightoblique-567b774bfa56e4b22b42ed420542143f.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Sparkle Web';
+	font-display: swap;
+	font-weight: 300;
+	font-stretch: normal;
+	font-style: italic;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-sparkle-lightitalic-bb1124ce4ee71eb5e41c46080e3791f9.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-sparkle-lightitalic-2ae2ee8bc9382b18318483c23ebe987b.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-sparkle-lightitalic-7b9d17bd2d06829ec6a26684d3e7bb8c.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Sparkle Web';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: normal;
+	font-style: normal;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-sparkle-regular-e29fc2d3f25a9e9e1e7842880053ea55.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-sparkle-regular-5f75ac4009cc88baee4d1c8965cbb24d.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-sparkle-regular-f500f71d564c6e545a3383d2e9c6f629.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Sparkle Web';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-sparkle-oblique-aa1f614cdbeb19eaebce03144fe55f11.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-sparkle-oblique-838585972a69f33b4021762158ea0601.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-sparkle-oblique-a3eb42caa9c412d03a3bb81bbc8abfef.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Sparkle Web Oblique';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: normal;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-sparkle-oblique-aa1f614cdbeb19eaebce03144fe55f11.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-sparkle-oblique-838585972a69f33b4021762158ea0601.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-sparkle-oblique-a3eb42caa9c412d03a3bb81bbc8abfef.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Sparkle Web';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: normal;
+	font-style: italic;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-sparkle-italic-2b4c7b488dd75582c7101aa170ec1015.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-sparkle-italic-998b918be8b43c9cc661797cfe6f5361.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-sparkle-italic-0a1e90f82c212a900d980e1e7fd5f336.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Sparkle Web';
+	font-display: swap;
+	font-weight: 500;
+	font-stretch: normal;
+	font-style: normal;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-sparkle-medium-cd18dda6bc5dbf0f19e9bf6513e2e07c.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-sparkle-medium-37c0fe94d71c437f6e91a745c4373d8c.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-sparkle-medium-df2e6ddda1ce04e0d5a8d62bee065698.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Sparkle Web';
+	font-display: swap;
+	font-weight: 500;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-sparkle-mediumoblique-565752a46a56bd021ca0cc12ea11620f.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-sparkle-mediumoblique-7e3e1c0167a957fa73f729add6bab210.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-sparkle-mediumoblique-16b4caf11f8166d9d2dab4d0943c78f2.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Sparkle Web Oblique';
+	font-display: swap;
+	font-weight: 500;
+	font-stretch: normal;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-sparkle-mediumoblique-565752a46a56bd021ca0cc12ea11620f.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-sparkle-mediumoblique-7e3e1c0167a957fa73f729add6bab210.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-sparkle-mediumoblique-16b4caf11f8166d9d2dab4d0943c78f2.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Sparkle Web';
+	font-display: swap;
+	font-weight: 500;
+	font-stretch: normal;
+	font-style: italic;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-sparkle-mediumitalic-f536cc33c558458f32727f7e307ad152.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-sparkle-mediumitalic-2045d0fe06a8ddd8a476f05f5b21e347.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-sparkle-mediumitalic-2ef74c68905b46b4286eef5bc67fa8b5.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Sparkle Web';
+	font-display: swap;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-sparkle-semibold-c8dfbb2edc5d4d1f58fb91e6fa50eb28.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-sparkle-semibold-18726d44f006dd95821500da714c863d.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-sparkle-semibold-9a7a499a952b942045aa11c9b934b9ec.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Sparkle Web';
+	font-display: swap;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-sparkle-semiboldoblique-5a7c06f1c28727d17520ee1553c5cbc2.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-sparkle-semiboldoblique-4c871d289b48da38bb25bf651e43060a.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-sparkle-semiboldoblique-6e85b6ccac5a121c70098d80203e4b0b.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Sparkle Web Oblique';
+	font-display: swap;
+	font-weight: 600;
+	font-stretch: normal;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-sparkle-semiboldoblique-5a7c06f1c28727d17520ee1553c5cbc2.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-sparkle-semiboldoblique-4c871d289b48da38bb25bf651e43060a.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-sparkle-semiboldoblique-6e85b6ccac5a121c70098d80203e4b0b.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Sparkle Web';
+	font-display: swap;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: italic;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-sparkle-semibolditalic-a3cdda9255334befef020dfa83160680.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-sparkle-semibolditalic-fa9cdc2935d76aa3f2d97d133d626eff.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-sparkle-semibolditalic-3a16495a350ea46650fecdf433a45eb7.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Sparkle Web';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: normal;
+	font-style: normal;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-sparkle-bold-53af5920a1e27558cae8b82882ea894b.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-sparkle-bold-20504bf8ac9f5ef73ca64fe2c9bcf694.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-sparkle-bold-0fc7c6f4dd946e84f1455d2839c155c5.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Sparkle Web';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-sparkle-boldoblique-679358ee6ba3d129a374cd9bbb6e2cc3.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-sparkle-boldoblique-768b575ad5d5dba8d904b59741cf6e1d.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-sparkle-boldoblique-262f71cc42499e63cf78ad32705ed587.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Sparkle Web Oblique';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: normal;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-sparkle-boldoblique-679358ee6ba3d129a374cd9bbb6e2cc3.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-sparkle-boldoblique-768b575ad5d5dba8d904b59741cf6e1d.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-sparkle-boldoblique-262f71cc42499e63cf78ad32705ed587.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Sparkle Web';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: normal;
+	font-style: italic;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-sparkle-bolditalic-c63432f877b56215833d855e31cb570b.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-sparkle-bolditalic-ec3c9684adc25961e2e763ad6e9552ee.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-sparkle-bolditalic-373ec37901c54cad6193518ddd7ac833.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Sparkle Web';
+	font-display: swap;
+	font-weight: 800;
+	font-stretch: normal;
+	font-style: normal;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-sparkle-extrabold-4ddd33f726e43f6d9ecfc0f3c27c1123.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-sparkle-extrabold-fedf21f548dc86271bd65fdee21f0837.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-sparkle-extrabold-f09d5c40f3c654a0ec7c56f9bf722871.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Sparkle Web';
+	font-display: swap;
+	font-weight: 800;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-sparkle-extraboldoblique-9202cdda70e74185abeed853d182169f.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-sparkle-extraboldoblique-6e1e09e1073a743a9f247839489492d2.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-sparkle-extraboldoblique-69c20442fa5df340e315662328bbef3b.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Sparkle Web Oblique';
+	font-display: swap;
+	font-weight: 800;
+	font-stretch: normal;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-sparkle-extraboldoblique-9202cdda70e74185abeed853d182169f.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-sparkle-extraboldoblique-6e1e09e1073a743a9f247839489492d2.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-sparkle-extraboldoblique-69c20442fa5df340e315662328bbef3b.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Sparkle Web';
+	font-display: swap;
+	font-weight: 800;
+	font-stretch: normal;
+	font-style: italic;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-sparkle-extrabolditalic-f28fa880799ea4d1e91342cea2ca6345.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-sparkle-extrabolditalic-eb5657f768e2c1a017a144f2d51ce737.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-sparkle-extrabolditalic-9ad4261350b954c8598a25ed0dbdc1ea.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Sparkle Web';
+	font-display: swap;
+	font-weight: 900;
+	font-stretch: normal;
+	font-style: normal;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-sparkle-heavy-8463723154e37b08133d59926a241b67.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-sparkle-heavy-119f607f2c23bd3ee372e60a14616dff.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-sparkle-heavy-6527018c218ef2aab2f44e74bb7ea25d.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Sparkle Web';
+	font-display: swap;
+	font-weight: 900;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-sparkle-heavyoblique-968e92095298a9d6f4c518f5c7e96e9c.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-sparkle-heavyoblique-d4c5c56343b59ce1aa2363e83f268eab.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-sparkle-heavyoblique-bca34c54fd65aa82868c6d5375f79aa3.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Sparkle Web Oblique';
+	font-display: swap;
+	font-weight: 900;
+	font-stretch: normal;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-sparkle-heavyoblique-968e92095298a9d6f4c518f5c7e96e9c.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-sparkle-heavyoblique-d4c5c56343b59ce1aa2363e83f268eab.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-sparkle-heavyoblique-bca34c54fd65aa82868c6d5375f79aa3.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Sparkle Web';
+	font-display: swap;
+	font-weight: 900;
+	font-stretch: normal;
+	font-style: italic;
+	src: url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-sparkle-heavyitalic-e04be8a0eb77888012c59701e45b8721.woff2) format('woff2'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-sparkle-heavyitalic-3d00be6a91c7dd59c72fd31d29c32dae.woff) format('woff'), url(https://typeof.net/Iosevka//_next/static/chunks/fonts/iosevka-sparkle-heavyitalic-4e68a624c429ad18d25a485b92d9e884.ttf) format('truetype');
+}
+
+body {
+  font-family: 'Iosevka Web';
+  background: #101414;
+  color: #c7cccb;
+}
+html,
+body {
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+}
+.sans {
+  font-family: 'Iosevka Web', monospace;
+}
+.sans.s-2 {
+  font-family: 'Iosevka Web Oblique', monospace;
+}
+.slab {
+  font-family: 'Iosevka Slab Web', monospace;
+}
+.slab.s-2 {
+  font-family: 'Iosevka Slab Web Oblique', monospace;
+}
+.aile {
+  font-family: 'Iosevka Aile Web', monospace;
+}
+.aile.s-2 {
+  font-family: 'Iosevka Aile Web Oblique', monospace;
+}
+.etoile {
+  font-family: 'Iosevka Etoile Web', monospace;
+}
+.etoile.s-2 {
+  font-family: 'Iosevka Etoile Web Oblique', monospace;
+}
+.sparkle {
+  font-family: 'Iosevka Sparkle Web', monospace;
+}
+.sparkle.s-2 {
+  font-family: 'Iosevka Sparkle Web Oblique', monospace;
+}
+.fira-code {
+  font-family: 'Fira Code', monospace;
+}
+.ibm-plex {
+  font-family: 'IBM Plex Mono', monospace;
+}
+.w-100 {
+  font-weight: 100;
+}
+.w-200 {
+  font-weight: 200;
+}
+.w-300 {
+  font-weight: 300;
+}
+.w-400 {
+  font-weight: 400;
+}
+.w-450 {
+  font-weight: 450;
+}
+.w-500 {
+  font-weight: 500;
+}
+.w-600 {
+  font-weight: 600;
+}
+.w-700 {
+  font-weight: 700;
+}
+.w-800 {
+  font-weight: 800;
+}
+.w-900 {
+  font-weight: 900;
+}
+.s-1 {
+  font-style: normal;
+}
+.s-2 {
+  font-style: oblique;
+}
+.s-3 {
+  font-style: italic;
+}
+.wd-5 {
+  font-stretch: normal;
+}
+.wd-7 {
+  font-stretch: expanded;
+}
+section {
+  border-bottom: 1px solid #333737;
+  position: relative;
+  padding: 4rem 2rem;
+}
+section.with-toolbar {
+  padding-top: 6rem;
+}
+section .section-inner {
+  width: 56rem;
+  margin: 0 auto;
+}
+@media (max-width: 1200px) {
+  section .section-inner {
+    width: auto;
+  }
+}
+section .section-toolbar {
+  border-bottom: 1px solid #212525;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 0;
+  height: 2rem;
+  line-height: 2rem;
+}
+section h2 {
+  line-height: 1;
+  font-size: 3.6rem;
+  line-height: 1.375;
+  font-weight: 200;
+  font-stretch: expanded;
+  margin: 0 0 4rem 0;
+  color: #dee4e3;
+}
+section .section-introduction {
+  display: flex;
+  position: relative;
+  align-items: stretch;
+  margin: 0 0 3rem 0;
+}
+section .section-introduction > .header {
+  flex: 4;
+  margin: 0;
+  padding-right: 4rem;
+}
+@media (max-width: 1376px) {
+  section .section-introduction > .header {
+    font-size: 3.6rem;
+  }
+}
+@media (max-width: 1232px) {
+  section .section-introduction > .header {
+    font-size: 3.2rem;
+  }
+}
+@media (max-width: 1088px) {
+  section .section-introduction > .header {
+    font-size: 2.8rem;
+  }
+}
+@media (max-width: 943.9999999999999px) {
+  section .section-introduction > .header {
+    font-size: 2.4rem;
+  }
+}
+@media (max-width: 800px) {
+  section .section-introduction > .header {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 656px) {
+  section .section-introduction > .header {
+    font-size: 1.6rem;
+  }
+}
+section .section-introduction > .content {
+  font-stretch: expanded;
+  line-height: 1.75;
+  flex: 6;
+  font-weight: 300;
+  position: relative;
+  background: linear-gradient(45deg, #75f4ff, #00ace9);
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+section .section-introduction > .content strong,
+section .section-introduction > .content em,
+section .section-introduction > .content cite {
+  text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+  font-weight: 400;
+  font-style: normal;
+  white-space: nowrap;
+}
+section .section-introduction > .content cite {
+  font-style: italic;
+}
+section .section-introduction > .content code {
+  font-weight: 600;
+}
+section .section-introduction > .content:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 1rem;
+  bottom: 1rem;
+  left: -2rem;
+  border-right: 1px solid #212525;
+}
+@media (max-width: 1200px) {
+  section .section-introduction {
+    display: block;
+  }
+  section .section-introduction > .header {
+    padding-right: 0;
+  }
+  section .section-introduction > .content:before {
+    display: none;
+  }
+}
+section.secondary .section-inner > h3 {
+  font-weight: 300;
+  font-size: 2.4rem;
+  margin: 0 0 2rem;
+}
+@media (max-width: 1040px) {
+  section.secondary .section-inner > h3 {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 848.0000000000001px) {
+  section.secondary .section-inner > h3 {
+    font-size: 1.6rem;
+  }
+}
+.picker-frame .toolbar.separate-toolbar {
+  line-height: 1.5rem;
+  height: 1.5rem;
+}
+.picker-frame .toolbar.separate-toolbar > .section-inner {
+  width: auto;
+}
+.picker-frame .toolbar > .section-inner {
+  display: flex;
+  height: 100%;
+}
+.picker-frame .toolbar > .section-inner > .button-group-gap {
+  flex: 1;
+}
+.picker-frame .toolbar > .section-inner > .button-group {
+  height: 100%;
+  display: flex;
+  flex: none;
+}
+.picker-frame .toolbar > .section-inner > .button-group > .picker-button {
+  height: 100%;
+  box-sizing: content-box;
+  flex: none;
+  display: inline-block;
+  font-size: 0.8rem;
+  margin: 0 0.25rem;
+  padding: 0 0.25rem;
+}
+.picker-frame .toolbar > .section-inner > .button-group + .button-group {
+  border-left: 1px solid #212525;
+}
+.picker-frame .toolbar > .section-inner .picker-button {
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+}
+.picker-frame .toolbar > .section-inner .picker-button:hover {
+  border-bottom-color: rgba(199,204,203,0.25);
+}
+.picker-frame .toolbar > .section-inner .picker-button.active {
+  border-bottom-color: #56dcee;
+  color: #fcfcfc;
+  font-weight: bolder;
+}
+.sample-code.literature {
+  hyphens: auto;
+  white-space: pre-wrap;
+  text-align: justify;
+  line-height: 1.5;
+}
+.sample-code .token.dim {
+  color: #6e7372;
+}
+.sample-code .token.keyword,
+.sample-code .token.storage {
+  color: #00ace9;
+}
+.sample-code .token.keyword-operator {
+  color: #56dcee;
+}
+.sample-code .token.punctuation,
+.sample-code .token.comment,
+.sample-code .token.meta-brace {
+  color: #6e7372;
+}
+.sample-code .token.type,
+.sample-code .token.support-type,
+.sample-code .token.entity {
+  color: #d78c50;
+}
+.sample-code .token.constant-numeric {
+  color: #ec7d71;
+}
+.sample-code .token.string {
+  color: #4db073;
+}
+.sample-code span.highlight {
+  color: #75f4ff;
+}
+.feature-usage-shower {
+  border: 1px solid #333737;
+  margin: 1.5rem 0 0.5rem 0;
+  padding: 0.5rem;
+}
+.feature-usage-shower h3 {
+  font-size: 0.8rem;
+  font-weight: 400;
+  font-stretch: expanded;
+  margin: 0;
+  text-transform: uppercase;
+  background: #101414;
+  margin-top: -1rem;
+  padding: 0 0.5em;
+  width: 14em;
+}
+.feature-usage-shower > .sample-code {
+  margin: 0;
+  font-size: 0.8rem;
+}
+.banner {
+  height: 100vh;
+  position: relative;
+  padding: 0;
+}
+.banner-title {
+  text-align: center;
+  white-space: nowrap;
+  font-weight: 100;
+  font-size: 12rem;
+  color: #dee4e3;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 1em;
+  line-height: 1em;
+  margin: -10rem 0 0 0;
+}
+@media (max-width: 1040px) {
+  .banner-title {
+    font-size: 8rem;
+  }
+}
+@media (max-width: 800px) {
+  .banner-title {
+    font-size: 6rem;
+  }
+}
+@media (max-width: 560px) {
+  .banner-title {
+    font-size: 4rem;
+  }
+}
+@media (max-width: 320px) {
+  .banner-title {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 920px) {
+  .banner-title {
+    margin-top: -12rem;
+  }
+}
+.banner-stats {
+  display: flex;
+  height: 3.5rem;
+  justify-content: center;
+  position: absolute;
+  bottom: 8rem;
+  left: 0;
+  right: 0;
+}
+.banner-stats > .stat {
+  flex: none;
+  box-sizing: border-box;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.banner-stats > .stat > .quantity {
+  color: #fcfcfc;
+  font-weight: 200;
+  font-size: 1.5em;
+  line-height: 1em;
+}
+.banner-stats > .stat > .desc {
+  font-weight: 300;
+  font-size: 0.8em;
+}
+.banner-stats >.stat+.stat {
+  margin-left: 1rem;
+  padding-left: 1rem;
+  border-left: 1px solid #333737;
+}
+.banner-stats >.install-button {
+  font-weight: 500;
+  font-stretch: expanded;
+  display: block;
+  flex: none;
+  background: #212525;
+  color: #dee4e3;
+  box-sizing: border-box;
+  margin-left: 1rem;
+  padding: 0.5rem 2rem;
+  line-height: 2.5rem;
+  text-decoration: none;
+}
+.banner-stats >.install-button:hover {
+  background: #333737;
+}
+.banner-stats >.install-button-split {
+  margin-left: 1rem;
+}
+.banner-stats >.install-button-split >.sub-button {
+  display: block;
+  flex: none;
+  color: #dee4e3;
+  box-sizing: border-box;
+  padding: 0 1rem;
+  height: 1.625rem;
+  line-height: 1.625rem;
+  text-decoration: none;
+}
+.banner-stats >.install-button-split >.sub-button:first-child {
+  margin-bottom: 0.25em;
+}
+.banner-stats >.install-button-split >.sub-button >.label {
+  font-weight: 400;
+  font-size: 0.8em;
+  vertical-align: 0.05em;
+}
+.banner-stats >.install-button-split >.sub-button:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 0.1em;
+}
+@media (max-width: 920px) {
+  .banner-stats {
+    display: block;
+    height: auto;
+  }
+  .banner-stats > .stat,
+  .banner-stats >.install-button {
+    display: block;
+    margin: 1rem;
+    width: auto;
+  }
+}
+.banner-scroll-down-arrow {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -5rem);
+}
+.banner-scroll-down-arrow span {
+  display: block;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-bottom: 2px solid #00ace9;
+  border-right: 2px solid #00ace9;
+  transform: rotate(45deg);
+  margin: -15px;
+  animation: banner-scroll-down-arrow-animation 4s infinite;
+}
+.banner-scroll-down-arrow span:nth-child(2) {
+  animation-delay: -0.2s;
+}
+.banner-scroll-down-arrow span:nth-child(3) {
+  animation-delay: -0.4s;
+}
+@-moz-keyframes banner-scroll-down-arrow-animation {
+  0% {
+    opacity: 0;
+    transform: rotate(45deg) translate(-0.5rem, -0.5rem);
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: rotate(45deg) translate(0.5rem, 0.5rem);
+  }
+}
+@-webkit-keyframes banner-scroll-down-arrow-animation {
+  0% {
+    opacity: 0;
+    transform: rotate(45deg) translate(-0.5rem, -0.5rem);
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: rotate(45deg) translate(0.5rem, 0.5rem);
+  }
+}
+@-o-keyframes banner-scroll-down-arrow-animation {
+  0% {
+    opacity: 0;
+    transform: rotate(45deg) translate(-0.5rem, -0.5rem);
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: rotate(45deg) translate(0.5rem, 0.5rem);
+  }
+}
+@keyframes banner-scroll-down-arrow-animation {
+  0% {
+    opacity: 0;
+    transform: rotate(45deg) translate(-0.5rem, -0.5rem);
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: rotate(45deg) translate(0.5rem, 0.5rem);
+  }
+}
+.ligation-sampler-body {
+  display: flex;
+}
+.ligation-sampler-body > .ligation-set-switches {
+  flex: none;
+  width: 8rem;
+  margin-right: calc(1rem - 1px);
+  border-right: 1px solid #333737;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+@media (max-width: 780px) {
+  .ligation-sampler-body > .ligation-set-switches {
+    flex: none;
+    width: 6rem;
+    margin-right: calc(1rem - 1px);
+    border-right: 1px solid #333737;
+  }
+  .ligation-sampler-body > .ligation-set-switches > .switch >.tag {
+    font-size: 1rem;
+  }
+}
+.ligation-sampler-body > .ligation-set-switches > .switch {
+  display: block;
+  flex: none;
+  padding: 0.2rem 0;
+  border-right: 2px solid transparent;
+  cursor: pointer;
+}
+.ligation-sampler-body > .ligation-set-switches > .switch.active {
+  color: #fcfcfc;
+  border-right-color: #56dcee;
+}
+.ligation-sampler-body > .ligation-set-switches > .switch.active>.tag {
+  font-weight: 500;
+}
+.ligation-sampler-body > .ligation-set-switches > .switch.active>.brief {
+  font-weight: 700;
+}
+.ligation-sampler-body > .ligation-set-switches > .switch:hover {
+  background-color: #212525;
+}
+.ligation-sampler-body > .ligation-set-switches > .switch > .tag,
+.ligation-sampler-body > .ligation-set-switches > .switch >.brief {
+  display: block;
+}
+.ligation-sampler-body > .ligation-set-switches > .switch > .tag {
+  font-weight: 300;
+}
+.ligation-sampler-body > .ligation-set-switches > .switch > .brief {
+  font-size: 0.6em;
+}
+.ligation-sampler-body > .ligation-set-switches > .switch.off > .tag {
+  text-decoration: line-through;
+  text-decoration-thickness: 0.05em;
+}
+.ligation-sampler-body > .picker-frame {
+  flex: 1 1 1rem;
+}
+@media (max-width: 780px) {
+  .ligation-sampler-body > .picker-frame .button-group.weight {
+    display: none;
+  }
+}
+@media (max-width: 560px) {
+  .ligation-sampler-body > .picker-frame .button-group.slope {
+    display: none;
+  }
+}
+.ligation-sampler-body .sample-text-list {
+  overflow-x: auto;
+}
+.ligation-sampler-body .sample-text {
+  width: 0;
+  font-size: 2rem;
+}
+.ligation-sampler-body .sample-text .rank-0 {
+  color: #3d4241;
+}
+.ligation-sampler-body .sample-text .rank-2,
+.ligation-sampler-body .sample-text .rank-3 {
+  color: #75f4ff;
+}
+.character-variant-sampler-body {
+  display: flex;
+}
+@media (max-width: 560px) {
+  .character-variant-sampler-body {
+    display: none;
+  }
+}
+.character-variant-sampler-body > .switches {
+  flex: none;
+  width: 14rem;
+  margin-right: calc(1rem - 1px);
+  border-right: 1px solid #333737;
+}
+.character-variant-sampler-body > .switches h3 {
+  font-size: 1rem;
+  margin: 1rem 0 0.5rem 0;
+  font-weight: 300;
+}
+.character-variant-sampler-body > .switches > .ss h3 {
+  margin-top: 0.125rem;
+}
+.character-variant-sampler-body > .switches > .ss .option {
+  display: flex;
+  line-height: 1.5rem;
+  padding: 0 0.5rem;
+  border-right: 2px solid transparent;
+  cursor: pointer;
+}
+.character-variant-sampler-body > .switches > .ss .option.active {
+  color: #fcfcfc;
+  border-right-color: #56dcee;
+}
+.character-variant-sampler-body > .switches > .ss .option.active>.tag {
+  font-weight: 500;
+}
+.character-variant-sampler-body > .switches > .ss .option.active>.brief {
+  font-weight: 700;
+}
+.character-variant-sampler-body > .switches > .ss .option:hover {
+  background-color: #212525;
+}
+.character-variant-sampler-body > .switches > .ss .option > span.tag {
+  flex: none;
+  font-size: 0.8rem;
+  display: block;
+}
+.character-variant-sampler-body > .switches > .ss .option > span.brief {
+  flex: 1;
+  font-size: 0.6rem;
+  display: block;
+  text-align: right;
+}
+.character-variant-sampler-body > .switches > .cv > .groups {
+  display: flex;
+  flex-wrap: wrap;
+}
+.character-variant-sampler-body > .switches > .cv > .groups > .group {
+  display: block;
+  width: 3.5rem;
+  box-sizing: border-box;
+  position: relative;
+}
+.character-variant-sampler-body > .switches > .cv > .groups > .group > .option.header {
+  border: 1px solid #101414;
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: left;
+  position: relative;
+}
+.character-variant-sampler-body > .switches > .cv > .groups > .group > .option.header > .upright-sample,
+.character-variant-sampler-body > .switches > .cv > .groups > .group > .option.header > .italic-sample {
+  display: inline-block;
+  width: 1.75rem;
+  text-align: center;
+}
+.character-variant-sampler-body > .switches > .cv > .groups > .group > .option.header > .dropdown-icon {
+  display: inline-block;
+  position: absolute;
+  width: 1.75rem;
+  text-align: center;
+  font-feature-settings: 'NWID' on;
+  right: 0;
+  opacity: 0.75;
+}
+.character-variant-sampler-body > .switches > .cv > .groups > .group > .option.header.non-default > .upright-sample,
+.character-variant-sampler-body > .switches > .cv > .groups > .group > .option.header.non-default > .italic-sample {
+  font-weight: 600;
+  color: #75f4ff;
+}
+.character-variant-sampler-body > .switches > .cv > .groups > .group >.options {
+  display: flex;
+  position: absolute;
+  top: 100%;
+  margin-top: -1px;
+  left: 0;
+  z-index: 3;
+  background: #101414;
+  border: 1px solid #101414;
+  overflow: hidden;
+}
+.character-variant-sampler-body > .switches > .cv > .groups > .group >.options > .option {
+  margin-right: -1px;
+}
+.character-variant-sampler-body > .switches > .cv > .groups > .group.dropdown-hidden > .options {
+  display: none;
+}
+.character-variant-sampler-body > .switches > .cv > .groups > .group.dropdown-visible >.option.header {
+  z-index: 4;
+  border-left-color: rgba(199,204,203,0.5);
+  border-top-color: rgba(199,204,203,0.5);
+  border-right-color: rgba(199,204,203,0.5);
+}
+.character-variant-sampler-body > .switches > .cv > .groups > .group.dropdown-visible >.options {
+  border-color: rgba(199,204,203,0.5);
+}
+.character-variant-sampler-body > .switches > .cv > .groups > .group .option {
+  cursor: pointer;
+  display: block;
+  width: 1.75rem;
+  height: 1.5rem;
+  line-height: 1.5rem;
+  text-align: center;
+  font-weight: 300;
+}
+.character-variant-sampler-body > .switches > .cv > .groups > .group .option.inactive {
+  color: rgba(199,204,203,0.75);
+}
+.character-variant-sampler-body > .switches > .cv > .groups > .group .option.active {
+  color: #fcfcfc;
+  font-weight: 600;
+}
+.character-variant-sampler-body > .switches > .cv > .groups > .group .option.active.non-default {
+  color: #75f4ff;
+}
+.character-variant-sampler-body > .switches > .cv > .groups > .group .option:hover {
+  background: #333737;
+}
+.character-variant-sampler-body > .switches > .cv > .groups > .group .option > .italic-sample {
+  font-style: italic;
+}
+.character-variant-sampler-body > .picker-frame {
+  flex: 1 1 1rem;
+}
+@media (max-width: 980px) {
+  .character-variant-sampler-body > .picker-frame .button-group.weight {
+    display: none;
+  }
+}
+@media (max-width: 760px) {
+  .character-variant-sampler-body > .picker-frame .button-group.slope {
+    display: none;
+  }
+}
+.character-variant-sampler-body > .picker-frame .sample-code-list {
+  overflow-x: auto;
+}
+.character-variant-sampler-body > .picker-frame .sample-code-list > .sample-code {
+  width: 0;
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+.code-sampler-body {
+  display: flex;
+}
+.code-sampler-body > .picker {
+  flex: none;
+  width: 8rem;
+  margin-right: calc(1rem - 1px);
+  border-right: 1px solid #333737;
+}
+.code-sampler-body > .picker > .option {
+  display: block;
+  font-size: 0.8rem;
+  line-height: 1.5rem;
+  padding-right: 0.5rem;
+  border-right: 2px solid transparent;
+  cursor: pointer;
+}
+.code-sampler-body > .picker > .option.active {
+  color: #fcfcfc;
+  border-right-color: #56dcee;
+}
+.code-sampler-body > .picker > .option.active>.tag {
+  font-weight: 500;
+}
+.code-sampler-body > .picker > .option.active>.brief {
+  font-weight: 700;
+}
+.code-sampler-body > .picker > .option:hover {
+  background-color: #212525;
+}
+.code-sampler-body > .picker-frame {
+  flex: 1 1 1rem;
+}
+div.footer {
+  font-size: 70%;
+  padding: 1rem 0;
+  text-align: center;
+  color: #464a4a;
+}
+.width-sampler .sample-text {
+  overflow: hidden;
+  font-size: 0.8rem;
+  line-height: 1.06rem;
+  border: 1px solid #212525;
+  margin: 0;
+  padding: 1em;
+  position: relative;
+}
+.width-sampler .sample-text:after {
+  content: '';
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 2rem;
+  background: linear-gradient(to left, #101414, rgba(16,20,20,0));
+}
+.width-sampler .toolbar.separate-toolbar {
+  line-height: 2.5rem;
+  height: 2.5rem;
+}
+@media (max-width: 943.9999999999999px) {
+  .width-sampler .toolbar.separate-toolbar {
+    display: none;
+  }
+}
+.width-sampler .toolbar.separate-toolbar .section-inner .button-group .picker-button {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+.width-sampler .toolbar.separate-toolbar .section-inner .button-group .picker-button.active {
+  font-weight: 600;
+}
+.grand-intro {
+  padding-top: 0;
+}
+.grand-intro-text {
+  margin: 2.666666666666667em 0;
+  text-align: left;
+  width: 18em;
+  line-height: 1.66667;
+  font-size: 3.2rem;
+  font-weight: 200;
+  background: linear-gradient(45deg, #75f4ff, #00ace9);
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+@media (max-width: 1232px) {
+  .grand-intro-text {
+    font-size: 2.4rem;
+  }
+}
+@media (max-width: 1040px) {
+  .grand-intro-text {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 848.0000000000001px) {
+  .grand-intro-text {
+    font-size: 1.6rem;
+  }
+}
+@media (max-width: 656px) {
+  .grand-intro-text {
+    font-size: 1.2rem;
+    font-size: 1.2rem;
+    width: auto;
+    font-weight: 300;
+  }
+  .grand-intro-text strong,
+  .grand-intro-text em {
+    font-weight: 400;
+  }
+}
+.grand-intro-text strong,
+.grand-intro-text em {
+  font-weight: 300;
+  font-style: normal;
+  white-space: nowrap;
+  text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+.grand-intro-family .family-item {
+  position: relative;
+  display: flex;
+  background: linear-gradient(45deg, #75f4ff, #00ace9);
+  background-clip: text;
+  -webkit-background-clip: text;
+  align-items: flex-start;
+  padding-top: 2rem;
+}
+.grand-intro-family .family-item .spacing-type {
+  position: absolute;
+  font-size: 0.8rem;
+  font-stretch: expanded;
+  font-weight: 300;
+  text-transform: uppercase;
+  top: 0;
+  left: 0;
+}
+.grand-intro-family .family-item .family-name,
+.grand-intro-family .family-item .stat {
+  font-size: 2.4rem;
+  font-weight: 300;
+  line-height: 1.25em;
+  height: 1.25em;
+  margin: 0;
+  padding: 0;
+}
+@media (max-width: 1232px) {
+  .grand-intro-family .family-item .family-name,
+  .grand-intro-family .family-item .stat {
+    font-size: 1.8rem;
+  }
+}
+@media (max-width: 1040px) {
+  .grand-intro-family .family-item .family-name,
+  .grand-intro-family .family-item .stat {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 848.0000000000001px) {
+  .grand-intro-family .family-item .family-name,
+  .grand-intro-family .family-item .stat {
+    font-size: 1.2rem;
+  }
+}
+.grand-intro-family .family-item .family-name {
+  color: #dee4e3;
+  flex: 3;
+}
+.grand-intro-family .family-item .stat {
+  flex: none;
+  width: 3.333333333333333em;
+}
+@media (max-width: 656px) {
+  .grand-intro-family .family-item .stat {
+    display: none;
+  }
+}
+.grand-intro-family .family-item .stat.static {
+  width: 2rem;
+  margin-left: -1.375em;
+  margin-right: 1.375em;
+}
+.grand-intro-family .family-item .stat.hidden {
+  visibility: hidden;
+}
+.grand-intro-family .family-item .stat.dynamic .quantity {
+  text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+.grand-intro-family .family-item .stat.static .quantity {
+  text-align: center;
+}
+.grand-intro-family .family-item .stat .desc {
+  font-size: 0.8rem;
+  font-weight: 400;
+  font-stretch: expanded;
+  height: 1rem;
+  line-height: 1rem;
+}
+.grand-intro-family .family-item.enumeration {
+  font-size: 0.8rem;
+  font-weight: 400;
+  font-stretch: expanded;
+  padding-top: calc(2rem + 1rem);
+}
+.grand-intro-family .family-item.enumeration .stat.refer {
+  position: relative;
+  height: auto;
+}
+.grand-intro-family .family-item.enumeration .stat.refer .enumeration-item {
+  font-size: 0.8rem;
+  line-height: 1.5em;
+}
+.grand-intro-family .family-item.enumeration .stat.refer:before {
+  content: '';
+  display: block;
+  position: absolute;
+  border-left: 1px solid #464a4a;
+  top: -1.5rem;
+  height: 1rem;
+  left: 0.4rem;
+  width: 0;
+}
+.grand-intro-family .family-item.enumeration .stat.refer.ext-4:before {
+  top: calc(-1.5rem - 3 * 1.25em - 3 * 2rem);
+  height: calc(1rem + 3 * 1.25em + 3 * 2rem);
+}
+.stat-dashboard {
+  display: flex;
+  overflow: hidden;
+  flex-wrap: wrap;
+  margin: 4rem 0 0 0;
+  background: linear-gradient(45deg, #75f4ff, #00ace9);
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+@media (max-width: 720px) {
+  .stat-dashboard {
+    display: block;
+  }
+}
+.stat-dashboard > .stat {
+  flex: 1 0 25%;
+  padding: 0 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: -1px;
+  border-left: 1px solid #333737;
+}
+.stat-dashboard > .stat .quantity {
+  font-size: 4rem;
+  font-weight: 200;
+  text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+.stat-dashboard > .stat .desc {
+  font-weight: 300;
+}
+.terminal-sampler .sample-item h3 {
+  font-weight: 500;
+  font-stretch: 7;
+  margin: 3rem 0 1rem;
+  font-size: 1rem;
+}
+.terminal-sampler .sample-body {
+  background: linear-gradient(45deg, #75f4ff, #00ace9);
+  background-clip: text;
+  -webkit-background-clip: text;
+  font-size: 3rem;
+  margin: 0 0 3rem 0;
+}
+@media (max-width: 1232px) {
+  .terminal-sampler .sample-body {
+    font-size: 2.4rem;
+  }
+}
+@media (max-width: 1040px) {
+  .terminal-sampler .sample-body {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 848.0000000000001px) {
+  .terminal-sampler .sample-body {
+    font-size: 1.6rem;
+  }
+}
+.terminal-sampler .sample-body em {
+  font-style: normal;
+  text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+.supported-languages {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  columns: 8em auto;
+  font-size: 0.8rem;
+}
+@media (max-width: 680px) {
+  .proportional-sampler-body .picker-frame .button-group.weight,
+  .proportional-sampler-body .picker-frame .button-group.slope {
+    display: none;
+  }
+}
+.character-specimen .section-toolbar {
+  position: fixed;
+  background: #101414;
+  z-index: 9999;
+}
+.character-specimen h1 {
+  font-size: 2rem;
+  font-weight: 200;
+  font-stretch: expanded;
+  margin: 0 0 1em 0;
+}
+.character-specimen .specimen-block > h3 {
+  font-weight: 300;
+  font-stretch: expanded;
+}
+.character-specimen .specimen-block .specimen-block-body {
+  display: flex;
+  flex-wrap: wrap;
+}
+.character-specimen .specimen-block .specimen-block-body .specimen-character {
+  flex: 1 1 6.25%;
+  width: 6.25%;
+  position: relative;
+  cursor: default;
+}
+.character-specimen .specimen-block .specimen-block-body .specimen-character.column-0:before {
+  content: attr(data-unicode-label) '\23F5';
+  position: absolute;
+  display: block;
+  right: 100%;
+  font-size: 0.75em;
+  height: 5.333333333333333em;
+  line-height: 5.333333333333333em;
+  z-index: -1;
+  font-stretch: expanded;
+  opacity: 0.5;
+}
+.character-specimen .specimen-block .specimen-block-body .specimen-character.not-in-font > .character-sample {
+  opacity: 0.25;
+}
+.character-specimen .specimen-block .specimen-block-body .specimen-character.unassigned > .character-sample {
+  opacity: 0.1;
+}
+.character-specimen .specimen-block .specimen-block-body .specimen-character .character-sample {
+  text-align: center;
+  font-size: 2rem;
+  height: 2em;
+  line-height: 2em;
+  z-index: 1;
+}
+.character-specimen .specimen-block .specimen-block-body .specimen-character .character-sample.markings-hidden .background {
+  visibility: hidden;
+}
+.character-specimen .specimen-block .specimen-block-body .specimen-character .character-sample .background {
+  display: inline-block;
+  color: #00ace9;
+  width: 0;
+  position: relative;
+  z-index: 1;
+  user-select: none;
+}
+.character-specimen .specimen-block .specimen-block-body .specimen-character .character-sample .background.mark-base:before {
+  display: inline;
+  content: '\25CC';
+}
+.character-specimen .specimen-block .specimen-block-body .specimen-character .character-sample .background.pre-letter:before {
+  display: inline;
+  content: '\E09B';
+}
+.character-specimen .specimen-block .specimen-block-body .specimen-character .character-sample .background.under-letter:before {
+  display: inline;
+  content: '\E09A';
+}
+.character-specimen .specimen-block .specimen-block-body .specimen-character .character-sample .background.post-letter:before {
+  display: inline;
+  content: '\E09C';
+}
+.character-specimen .specimen-block .specimen-block-body .specimen-character .character-sample .background.pre-symbol:before {
+  display: inline;
+  content: '\E096';
+}
+.character-specimen .specimen-block .specimen-block-body .specimen-character .character-sample .background.post-symbol:before {
+  display: inline;
+  content: '\E097';
+}
+.character-specimen .specimen-block .specimen-block-body .specimen-character .character-sample .background.pre-mosaic:before {
+  display: inline;
+  content: '\E098';
+}
+.character-specimen .specimen-block .specimen-block-body .specimen-character .character-sample .background.post-mosaic:before {
+  display: inline;
+  content: '\E099';
+}
+.character-specimen .specimen-block .specimen-block-body .specimen-character .character-sample .character-sample-inner {
+  position: relative;
+  display: inline-block;
+  z-index: 2;
+}
+.character-specimen .specimen-block .specimen-block-body .specimen-character .character-sample .character-sample-inner > .pre {
+  white-space: pre;
+}
+.character-specimen .specimen-block .specimen-block-body .specimen-character .character-sample .character-sample-inner > .background.under-letter {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.character-specimen .specimen-block .specimen-block-body .specimen-character:hover,
+.character-specimen .specimen-block .specimen-block-body .specimen-character.variant-menu-visible {
+  background: #212525;
+}
+.character-specimen .specimen-block .specimen-block-body .specimen-character.variant-menu-visible .character-sample-variants {
+  display: block;
+}
+.character-specimen .specimen-block .specimen-block-body .specimen-character.variant-menu-visible .has-variant-marker {
+  opacity: 1;
+}
+.character-specimen .specimen-block .specimen-block-body .specimen-character .has-variant-marker {
+  display: block;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border: 5px solid #c7cccb;
+  border-left-color: transparent;
+  border-top-color: transparent;
+  opacity: 0.25;
+}
+.character-specimen .specimen-block .specimen-block-body .specimen-character .character-sample-variants {
+  display: none;
+  position: absolute;
+  background: #101414;
+  top: 100%;
+  left: 0;
+  background: #212525;
+  z-index: 3;
+  padding: 0.25rem;
+}
+.character-specimen .specimen-block .specimen-block-body .specimen-character .character-sample-variants > .row {
+  display: block;
+  white-space: nowrap;
+}
+.character-specimen .specimen-block .specimen-block-body .specimen-character .character-sample-variants > .row > .character-sample {
+  display: inline-block;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  height: 2rem;
+  width: 2rem;
+}
+
