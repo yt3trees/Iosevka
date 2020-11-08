@@ -2538,13 +2538,21 @@ section.secondary .section-inner > h3 {
   .banner-stats {
     display: block;
     height: auto;
-    bottom: 13rem;
+    bottom: 10rem;
   }
-  .banner-stats > .stat,
+  .banner-stats >.stat,
   .banner-stats >.install-button {
-    display: block;
     margin: 1rem;
     width: auto;
+  }
+  .banner-stats > .main-button {
+    padding: 0.5rem 0.75rem;
+  }
+  .banner-stats >.install-button {
+    height: 3rem;
+  }
+  .banner-stats >.install-button-split {
+    height: 4rem;
   }
 }
 .banner-scroll-down-arrow {
@@ -3035,11 +3043,6 @@ div.footer {
   background-clip: text;
   -webkit-background-clip: text;
 }
-@media (max-width: 720px) {
-  .stat-dashboard {
-    display: block;
-  }
-}
 .stat-dashboard > .stat {
   flex: 1 0 25%;
   padding: 0 2rem;
@@ -3048,14 +3051,29 @@ div.footer {
   margin-left: -1px;
   border-left: 1px solid #333737;
 }
+@media (max-width: 560px) {
+  .stat-dashboard > .stat {
+    padding: 0 1rem;
+  }
+}
 .stat-dashboard > .stat .quantity {
   font-size: 4rem;
   font-weight: 200;
   text-fill-color: transparent;
   -webkit-text-fill-color: transparent;
 }
+@media (max-width: 560px) {
+  .stat-dashboard > .stat .quantity {
+    font-size: 2rem;
+  }
+}
 .stat-dashboard > .stat .desc {
   font-weight: 300;
+}
+@media (max-width: 560px) {
+  .stat-dashboard > .stat .desc {
+    font-size: 0.75rem;
+  }
 }
 .terminal-sampler .sample-item h3 {
   font-weight: 500;
