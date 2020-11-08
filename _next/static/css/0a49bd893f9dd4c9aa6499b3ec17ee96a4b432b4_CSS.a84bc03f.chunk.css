@@ -3287,22 +3287,30 @@ div.footer {
 }
 .character-specimen .standouts {
   position: fixed;
-  top: 2rem;
+  left: 1rem;
+  right: 1rem;
   bottom: 0;
-  right: 0;
-  padding-left: 0.25rem;
+  height: 15rem;
+  padding: 0rem 0.5rem;
   overflow: auto;
   z-index: 3;
-  pointer-events: none;
+  background: #101414;
+  display: flex;
+  flex-wrap: wrap;
+  border-top: 1px solid rgba(199,204,203,0.25);
+  border-left: 1px solid rgba(199,204,203,0.25);
+  border-right: 1px solid rgba(199,204,203,0.25);
+  box-shadow: 0 0 0.25em #101414;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
 }
 .character-specimen .standouts > .standout {
   box-sizing: border-box;
   width: 15rem;
-  padding: 0.25rem;
+  height: 15rem;
+  flex: none;
   position: relative;
   background: #101414;
-  pointer-events: visible;
-  box-shadow: 0 0 0.25rem #101414;
 }
 .character-specimen .standouts > .standout > button.close {
   display: block;
@@ -3330,8 +3338,9 @@ div.footer {
   padding-left: 1.75rem;
 }
 .character-specimen .standouts > .standout > .character-sample {
+  height: 15rem;
   font-size: 10rem;
-  line-height: 1.5;
+  line-height: 15rem;
 }
 .character-specimen .standouts > .standout.outside-font > .character-sample {
   opacity: 0.25;
